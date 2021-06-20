@@ -1,7 +1,5 @@
-/* TODO: разбить это все на SCSS, прописать всем IMG размеры 
-         добавить normolize.css
+/* TODO: прописать всем IMG размеры 
          в шапке оформить нормально контакты и добавить ссылки в список
-         title и subTitle вынести в глобальные стили
 */
 @font-face {
  font-family: "almoni";
@@ -38,6 +36,9 @@ a{
 ._white{
     color: #fff;
 }
+.btn{
+    cursor: pointer;
+}
 body{
     font-family: "almoni";
     font-weight: 500
@@ -71,6 +72,10 @@ body{
     margin: 0  15px;
 }
 
+.header_firstLine-contacts-item address{
+    display: inline;
+    font-style: normal;
+}
 .header_firstLine-contacts-item img{
     margin-right: 20px;
     margin-left: 10px;
@@ -83,6 +88,10 @@ body{
     align-items: center;
     justify-content: space-around;
     order: 2;
+}
+.header_firstLine-contacts a{
+    color: #FAFAFA;
+    text-decoration: none;
 }
 
 .header_secondLine{
@@ -128,6 +137,9 @@ body{
     width: 50%;
     color: #070F22; 
 }
+.header_secondLine-nav a{
+    color: #070F22;
+}
 .header_secondLine-logo{
     display: flex;
     flex-direction: row;
@@ -146,7 +158,7 @@ body{
     font-weight: 900;
     font-size: 40px;
 }
-.header_secondLine-logo .subtitle{
+.header_secondLine-logo .subTitle{
     font-weight: 500;
     font-size: 16px;
 }
@@ -474,6 +486,18 @@ body{
 .fourthBlock .sectionInner .contacts .contact>img{
     margin-left: 20px;
 }
+.fourthBlock .sectionInner .contacts .contact .firstLine{
+    font-weight: 700;
+
+}
+.fourthBlock .sectionInner .contacts .contact .secondLine{
+    color: #070F22;
+    font-weight: 500;
+    font-style: normal;
+}
+.fourthBlock .sectionInner .contacts .contact a{
+    color: #070F22;
+}
 .fourthBlock .sectionInner .form{
     order:1;
     display: flex;
@@ -570,6 +594,10 @@ body{
 .fifthBlock .sectionInner .news .smallNews{
     width: 100%;
 }
+.fifthBlock .sectionInner .news .smallNews .newsItem img{
+    width: 147px;
+    height: 162px;
+}
 .fifthBlock .sectionInner .news .smallNews .smallNewsList{
     display: flex;
     flex-direction: row;
@@ -600,7 +628,6 @@ body{
     font-size: 24px;
 }
 .fifthBlock .sectionInner .news .smallNews .smallNewsList .newsItem .text .subTitle {
-    /* text-align: end; */
     font-weight: 500;
     font-size: 18px;
     color: #0F2350;
@@ -608,7 +635,6 @@ body{
 .fifthBlock .sectionInner .news .smallNews .smallNewsList .newsItem img {
     object-fit:cover;
     order: 2;
-    /* margin: 10px; */
 }
 .fifthBlock .sectionInner .news .smallNews .more{
     display: flex;
@@ -635,7 +661,6 @@ body{
     width: 380px;
     height: 200px;
     object-fit: cover;
-    /* margin: 20px 0; */
 }
  .fifthBlock .sectionInner .news .bigNews .text{
     padding: 0 20px 10px;
@@ -646,13 +671,11 @@ body{
     width: 100%;
  }
  .fifthBlock .sectionInner .news .bigNews .text .title{
-
     color: #0F2350;
     font-size: 32px;
     margin-bottom: 10px;
 }
 .fifthBlock .sectionInner .news .bigNews .text .subTitle {
-    
     font-weight: 500;
     font-size: 20px;
     color: #0F2350;
@@ -675,7 +698,6 @@ body{
     color: #CE2C15;
     margin-bottom: 10px;
 }
-
 .footer{
     background-color: #070F22;
     width: 100%;
@@ -688,6 +710,118 @@ body{
     align-items: center;
     justify-content: space-around;
     width: 100%;
+}
+.footer .sectionInner .mainFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .sectionInner .mainFooter .footerList{
+    list-style: none;
+    font-size: 20px;
+    text-align: end;  
+}
+.footer .sectionInner .mainFooter .footerList .footerListItem:first-child{
+    margin-top: 0;
+}
+.footer .sectionInner .mainFooter .footerList .footerListItem{
+    margin-top: 15px;
+}
+.footer .sectionInner .mainFooter .footerList .footerListItem a{
+    text-decoration: none;
+    color: #CFCFCF;
+}
+.footer .sectionInner .mainFooter .title{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+.footer .sectionInner .mainFooter hr{ 
+    width: 100%;
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #cfcfcf88; /* Цвет линии для остальных браузеров */
+    background-color: #cfcfcf88; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+    margin: 10px 0;
+}
+.footer .sectionInner .mainFooter .contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    width: 25%;
+    color: #ECECEC;
+}
+.footer .sectionInner .mainFooter .contacts .title{
+    font-weight: 900;
+    font-size: 48px;
+    color: #0F2350;
+    margin-bottom: 20px;
+}
+.footer .sectionInner .mainFooter .contacts .contact .firstLine{
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.footer .sectionInner .mainFooter .contacts .contact .secondLine,
+.footer .sectionInner .mainFooter .contacts .contact a{
+    color: #ffffff7e;
+    font-style: normal;
+}
+.footer .sectionInner .mainFooter .contacts .contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: end;
+}
+.footer .sectionInner .mainFooter .contacts .contact>img{
+    margin-left: 20px;
+}
+.footer .sectionInner .mainFooter .contacts .contact .text .title{
+    font-weight: 900;
+    font-size: 40px;
+    color: #ececec;
+}
+
+.footer .sectionInner .mainFooter .time{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 20%;
+}
+.footer .sectionInner .mainFooter .time .timeText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+} 
+.footer .sectionInner .mainFooter .time .timeText .text{
+    font-size: 18px;
+}
+.footer .sectionInner .mainFooter .time .timeText img{
+    margin-left: 10px;
+}
+.footer .sectionInner .mainFooter .category{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 20%;
+}
+.footer .sectionInner .mainFooter .footerMenu{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 20%;
 }
 .footer .sectionInner .lastLineFooter{
     display: flex;
@@ -718,48 +852,4 @@ body{
 .footer .sectionInner .lastLineFooter .copyright{
     font-weight: 300;
     font-size: 15px;
-}
-.footer .sectionInner .mainFooter{
-    width: 100%;
-}
-.footer .sectionInner .mainFooter .contacts{
-    order:2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    /* width: 33%; */
-    color: #ECECEC;
-}
-.footer .sectionInner .mainFooter .contacts .title{
-    font-weight: 900;
-    font-size: 48px;
-    color: #0F2350;
-    margin-bottom: 20px;
-}
-.footer .sectionInner .mainFooter .contacts .contact .firstLine{
-    font-size: 22px;
-    margin-bottom: 5px;
-}
-.footer .sectionInner .mainFooter .contacts .contact .secondLine,
-.footer .sectionInner .mainFooter .contacts .contact a{
-    color: #ffffff7e;
-}
-.footer .sectionInner .mainFooter .contacts .contact{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    width: 60%;
-    margin-bottom: 20px;
-    text-align: end;
-    /* color: #ffffff7e; */
-}
-.footer .sectionInner .mainFooter .contacts .contact>img{
-    margin-left: 20px;
-}
-.footer .sectionInner .mainFooter .contacts .contact .text .title{
-    font-weight: 900;
-    font-size: 40px;
-    color: #ececec;
 }
