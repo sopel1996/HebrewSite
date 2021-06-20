@@ -49,6 +49,7 @@ body{
     margin-right: auto;
     height:100%;
 }
+
 .header{
     margin-bottom: 5px;
 }
@@ -96,6 +97,7 @@ body{
 
 .header_secondLine{
     margin-top: 12px;
+    height: 60px;
 }
 .header_secondLine .sectionInner{
     display: flex;
@@ -371,6 +373,7 @@ body{
 
 .thirdBlock{
     margin-top: 10px;
+    height: 280px;
 }
 .thirdBlock .sectionInner{
     display: flex;
