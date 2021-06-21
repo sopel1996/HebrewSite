@@ -771,11 +771,13 @@ body{
     font-size: 220%;
     margin-bottom: 5px;
 }
+.footer .sectionInner .mainFooter .contacts .contact .secondLine{
+    font-size: 160%;
+}
 .footer .sectionInner .mainFooter .contacts .contact .secondLine,
 .footer .sectionInner .mainFooter .contacts .contact a{
     color: #ffffff7e;
     font-style: normal;
-    font-size: 160%;
 }
 .footer .sectionInner .mainFooter .contacts .contact{
     display: flex;
