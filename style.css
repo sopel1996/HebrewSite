@@ -49,6 +49,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     height:100%;
+    padding: 0 20px;
 }
 .header{
     width: 100%;
@@ -340,7 +341,7 @@ body{
 }
 .secondBlock .sectionInner .aboutCompany .listItem img{
     order: 2;
-    margin-left: 10px;
+    margin: 0 10px;
 }
 .secondBlock .sectionInner .aboutCompany .text{
     font-weight: 500;
@@ -401,6 +402,7 @@ body{
 .thirdBlock .sectionInner .companiesLogo .companyLogo{
     padding: 0 15px;
     width: 10vw;
+    height: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -548,7 +550,7 @@ body{
 }
 .fourthBlock .sectionInner .form .firstLine div input{
     margin: 20px 0;
-    line-height: 2;
+    line-height: 1;
 }
 .fourthBlock .sectionInner .form .commentsArea{
     line-height: 1;
@@ -557,7 +559,7 @@ body{
 .fourthBlock .sectionInner .form .btn{
     width: 100%;
     margin: 20px 0;
-    height: 60px;
+    height: 100px;
     border: none;
     background-color: #CE2C15;
     color: #FAFAFA;
@@ -871,4 +873,80 @@ body{
 .footer .sectionInner .lastLineFooter .copyright{
     font-weight: 300;
     font-size: 150%;
+}
+
+
+@media (min-width: 768px){
+    body{
+        font-size: 8px;
+    }
+    .fistBlock .sectionInner .firsBlock_card{
+        width: 22%;
+    }
+    .secondBlock .sectionInner .men {
+        width: 50%;
+    }
+    .thirdBlock .sectionInner .companiesLogo .companyLogo {
+        width: 20%;
+    }
+    .fourthBlock .sectionInner .form .btn {
+        height: 40px;
+    }
+    .fifthBlock .sectionInner .news .smallNews .smallNewsList .newsItem {
+        max-width: 45%;
+    }
+    .fifthBlock .sectionInner .news .smallNews .newsItem img {
+        width: 40%;
+    }
+    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
+        width: 28vw;
+    }
+}
+@media (min-width: 992px){
+    body{
+        font-size: 10px;
+    }
+    .secondBlock .sectionInner .men {
+        width: 40%;
+    }
+    .fifthBlock .sectionInner .news .smallNews .newsItem img {
+        width: 30%;
+    }
+    .fourthBlock .sectionInner .form .btn {
+        height: 100px;
+}
+@media (min-width: 1200px){
+    .sectionInner{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .thirdBlock .sectionInner .companiesLogo .companyLogo {
+        width: 15%;
+    }
+    .fifthBlock .sectionInner .news .smallNews .newsItem img {
+        width: 50%;
+    }
+    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
+        width: 28vw;
+    }
+    .secondBlock .sectionInner .men {
+        width: 35%;
+    }
+}
+@media (min-width: 1400px){
+    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
+        width: 25vw;
+    }
+    .secondBlock .sectionInner .men {
+        width: 35%;
+    }    
+}
+@media (min-width: 1920px){
+    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
+        width: 18vw;
+    }
+    .secondBlock .sectionInner .men {
+        width: 60%;
+    }
 }
