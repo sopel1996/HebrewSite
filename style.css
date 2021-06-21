@@ -1,5 +1,4 @@
 /* TODO: прописать всем IMG размеры 
-         в шапке оформить нормально контакты и добавить ссылки в список
 */
 @font-face {
  font-family: "almoni";
@@ -38,8 +37,10 @@ a{
 }
 .btn{
     cursor: pointer;
+    font-size: 160%;
 }
 body{
+    font-size: 10px;
     font-family: "almoni";
     font-weight: 500
 }
@@ -49,13 +50,13 @@ body{
     margin-right: auto;
     height:100%;
 }
-
 .header{
     margin-bottom: 5px;
 }
 .header_firstLine{
     height: 40px;
     width: 100%;
+    font-size: 160%;
 }
 .header_firstLine .sectionInner{
     display: flex;
@@ -63,16 +64,13 @@ body{
     align-items: center;
     justify-content: space-between;
     font-weight: 300;
-
 }
-
 .header_firstLine-social{
     order: 1;
 }
 .header_firstLine-social img{
     margin: 0  15px;
 }
-
 .header_firstLine-contacts-item address{
     display: inline;
     font-style: normal;
@@ -82,7 +80,6 @@ body{
     margin-left: 10px;
     float: right;
 }
-
 .header_firstLine-contacts{
     display: flex;
     flex-direction: row;
@@ -98,6 +95,8 @@ body{
 .header_secondLine{
     margin-top: 12px;
     height: 60px;
+    font-size: 160%;
+
 }
 .header_secondLine .sectionInner{
     display: flex;
@@ -123,11 +122,11 @@ body{
     font-weight: 900;
     text-decoration: none;
     color: #070F22;
-    font-size: 24px;
+    font-size: 150%;
 }
 .header_secondLine-contacts-phone .text span{
     color: #0F2350;
-    font-size: 16px;
+    font-size: 100%;
 }
 
 .header_secondLine-nav{
@@ -158,11 +157,11 @@ body{
 }
 .header_secondLine-logo .title{
     font-weight: 900;
-    font-size: 40px;
+    font-size: 250%;
 }
 .header_secondLine-logo .subTitle{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 100%;
 }
 
 .logo{
@@ -192,12 +191,12 @@ body{
 }
 .logo .sectionInner .title{
     font-weight: 700;
-    font-size: 64px;
+    font-size: 640%;
     margin-bottom: 15px;
 }
 .logo .sectionInner .subtitle{
     font-weight: 500;
-    font-size: 36px;
+    font-size: 360%;
     margin-bottom: 25px;
 }
 
@@ -220,10 +219,6 @@ body{
 .fistBlock .sectionInner{
     position: relative;
     z-index: 20;
-    
-    /* border: 5px solid red; */
-    /* margin-top: -100px; */
-    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -256,13 +251,13 @@ body{
 }
 .fistBlock .sectionInner .firsBlock_card .text .title{
     font-weight: 700;
-    font-size: 24px;
+    font-size: 240%;
     text-align: right;
     margin-bottom: 5px;
 }
 .fistBlock .sectionInner .firsBlock_card .text .subTitle{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 180%;
     text-align: right;
     line-height: 1.3;
 }
@@ -273,6 +268,7 @@ body{
     justify-content: space-between;
     align-items: center;
     color: #CE2C15;
+    font-size: 160%;
 }
 
 
@@ -316,13 +312,13 @@ body{
 }
 .secondBlock .sectionInner .aboutCompany .title{
     font-weight: 900;
-    font-size: 48px;
+    font-size: 480%;
     color: #0F2350;
 
 }
 .secondBlock .sectionInner .aboutCompany .subTitle{
     font-weight: 700;
-    font-size: 28px;
+    font-size: 280%;
     color: #0F2350;
 }
 .secondBlock .sectionInner .aboutCompany .list{
@@ -332,6 +328,7 @@ body{
     justify-content: space-between;
     width: 80%;
     height: 15%;
+    font-size: 160%;
 
 }
 .secondBlock .sectionInner .aboutCompany .listItem{
@@ -347,7 +344,7 @@ body{
 }
 .secondBlock .sectionInner .aboutCompany .text{
     font-weight: 500;
-    font-size: 20px;
+    font-size: 200%;
     line-height: 1.0;
     width: 80%;
     text-align: right;
@@ -383,13 +380,13 @@ body{
 }
 .thirdBlock .sectionInner .title{
     font-weight: 900;
-    font-size: 48px;
+    font-size: 480%;
     color: #0F2350;
     margin-bottom: 20px;
 }
 .thirdBlock .sectionInner .subTitle{
     font-weight: 700;
-    font-size: 28px;
+    font-size: 280%;
     color: #0F2350;
 }
 .thirdBlock .sectionInner .companiesLogo{
@@ -424,6 +421,7 @@ body{
     justify-content: space-between;
     color: #0F2350;
     padding: 7px 0;
+    font-size: 160%;
 }
 .thirdBlock .sectionInner .companiesLogo .companyLogo .underline .text{
     font-weight: 700;
@@ -452,14 +450,14 @@ body{
 }
 .fourthBlock .sectionInner .information .title{
     font-weight: 900;
-    font-size: 48px;
+    font-size: 480%;
     color: #0F2350;
     margin-bottom: 20px;
 }
 .fourthBlock .sectionInner .information .subTitle{
     text-align: end;
-    font-weight: 700;
-    font-size: 28px;
+    font-weight: 500;
+    font-size: 260%;
     color: #0F2350;
 
 } 
@@ -467,13 +465,13 @@ body{
     order:2;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     height: 100%;
-    width: 33%;
+    width: 25%;
 }
 .fourthBlock .sectionInner .contacts .title{
     font-weight: 900;
-    font-size: 48px;
+    font-size: 480%;
     color: #0F2350;
     margin-bottom: 20px;
 }
@@ -482,21 +480,24 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
-    width: 60%;
+    width: 100%;
     margin-bottom: 20px;
     text-align: end;
+    font-size: 160%;
 }
 .fourthBlock .sectionInner .contacts .contact>img{
     margin-left: 20px;
 }
 .fourthBlock .sectionInner .contacts .contact .firstLine{
     font-weight: 700;
+    font-size: 110%;
 
 }
 .fourthBlock .sectionInner .contacts .contact .secondLine{
     color: #070F22;
     font-weight: 500;
     font-style: normal;
+    font-size: 110%;
 }
 .fourthBlock .sectionInner .contacts .contact a{
     color: #070F22;
@@ -507,10 +508,11 @@ body{
     flex-direction: column;
     align-items: flex-end;
     height: 100%;
+    width: 33%;
 }
 .fourthBlock .sectionInner .form .title{
     font-weight: 900;
-    font-size: 48px;
+    font-size: 480%;
     color: #0F2350;
     margin-bottom: 20px;
     width: 100%;
@@ -520,14 +522,16 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
 }
 .fourthBlock .sectionInner .form .firstLine div{
     text-align: end;
+    width: 100%;
 }
 .fourthBlock .sectionInner .form .firstLine div label{
     font-weight: 700;
-    font-size: 16px;
+    font-size: 160%;
 }
 .fourthBlock .sectionInner .form .firstLine div input{
     margin: 20px 0;
@@ -554,9 +558,8 @@ body{
     align-items: center;
 }
 .fourthBlock .sectionInner .form .btn .btnText{
-    margin-right: 150px;
     font-weight: 500;
-    font-size: 20px;   
+    font-size: 100%;   
 }
 
 .FIOConteiner{
@@ -570,7 +573,7 @@ body{
 .commentLabel{
     margin-bottom: 20px;
     font-weight: 700;
-    font-size: 16px;     
+    font-size: 160%;     
 }
 .fifthBlock{
     background-color: #0F2350;
@@ -585,7 +588,7 @@ body{
 }
 .fifthBlock .sectionInner .title{
     font-weight: 900;
-    font-size: 48px;
+    font-size: 480%;
     color: #FAFAFA;
 }
 .fifthBlock .sectionInner .news{
@@ -628,11 +631,11 @@ body{
 }
 .fifthBlock .sectionInner .news .smallNews .smallNewsList .newsItem .text .title {
     color: #0F2350;
-    font-size: 24px;
+    font-size: 240%;
 }
 .fifthBlock .sectionInner .news .smallNews .smallNewsList .newsItem .text .subTitle {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 180%;
     color: #0F2350;
 }
 .fifthBlock .sectionInner .news .smallNews .smallNewsList .newsItem img {
@@ -643,7 +646,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    font-size: 160%;
     color: #fafafa;
     margin: 0 20px 20px 20px;
 }
@@ -675,12 +678,12 @@ body{
  }
  .fifthBlock .sectionInner .news .bigNews .text .title{
     color: #0F2350;
-    font-size: 32px;
+    font-size: 320%;
     margin-bottom: 10px;
 }
 .fifthBlock .sectionInner .news .bigNews .text .subTitle {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 200%;
     color: #0F2350;
     text-align: end;
     margin-top: 10px;
@@ -700,6 +703,7 @@ body{
     align-items: center;
     color: #CE2C15;
     margin-bottom: 10px;
+    font-size: 160%;
 }
 .footer{
     background-color: #070F22;
@@ -723,7 +727,7 @@ body{
 }
 .footer .sectionInner .mainFooter .footerList{
     list-style: none;
-    font-size: 20px;
+    font-size: 200%;
     text-align: end;  
 }
 .footer .sectionInner .mainFooter .footerList .footerListItem:first-child{
@@ -737,7 +741,7 @@ body{
     color: #CFCFCF;
 }
 .footer .sectionInner .mainFooter .title{
-    font-size: 24px;
+    font-size: 240%;
     font-weight: 700;
     
 }
@@ -759,18 +763,19 @@ body{
 }
 .footer .sectionInner .mainFooter .contacts .title{
     font-weight: 900;
-    font-size: 48px;
+    font-size: 480%;
     color: #0F2350;
     margin-bottom: 20px;
 }
 .footer .sectionInner .mainFooter .contacts .contact .firstLine{
-    font-size: 22px;
+    font-size: 220%;
     margin-bottom: 5px;
 }
 .footer .sectionInner .mainFooter .contacts .contact .secondLine,
 .footer .sectionInner .mainFooter .contacts .contact a{
     color: #ffffff7e;
     font-style: normal;
+    font-size: 160%;
 }
 .footer .sectionInner .mainFooter .contacts .contact{
     display: flex;
@@ -786,7 +791,7 @@ body{
 }
 .footer .sectionInner .mainFooter .contacts .contact .text .title{
     font-weight: 900;
-    font-size: 40px;
+    font-size: 400%;
     color: #ececec;
 }
 
@@ -805,7 +810,7 @@ body{
     justify-content: space-between;
 } 
 .footer .sectionInner .mainFooter .time .timeText .text{
-    font-size: 18px;
+    font-size: 180%;
 }
 .footer .sectionInner .mainFooter .time .timeText img{
     margin-left: 10px;
@@ -844,7 +849,7 @@ body{
     border-left: 1px solid #CFCFCF;
     color: #CFCFCF;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 150%;
     line-height: 2;
     margin-left: 10px;
     padding-left: 10px;
@@ -854,5 +859,5 @@ body{
 }
 .footer .sectionInner .lastLineFooter .copyright{
     font-weight: 300;
-    font-size: 15px;
+    font-size: 150%;
 }
