@@ -4,21 +4,25 @@
  font-family: "almoni";
  src: url("fonts/almoni-dl-aaa-light.otf") format("openType");
  font-weight: 300;
+ font-display: swap;
 }
 @font-face {
  font-family: "almoni";
  src: url("fonts/almoni-dl-aaa-regular.otf") format("openType");
  font-weight: 500;
+ font-display: swap;
 }
 @font-face {
  font-family: "almoni";
  src: url("fonts/almoni-dl-aaa-bold.otf") format("openType");
  font-weight: 700;
+ font-display: swap;
 }
 @font-face {
  font-family: "almoni";
  src: url("fonts/almoni-dl-aaa-black.otf") format("openType");
  font-weight: 900;
+ font-display: swap;
 }
 *{
     margin: 0;
@@ -49,12 +53,15 @@ body{
     margin-left: auto;
     margin-right: auto;
     height:100%;
+    padding: 0 20px;
 }
 .header{
+    width: 100%;
     margin-bottom: 5px;
+    height: 13vh;
 }
 .header_firstLine{
-    height: 40px;
+    height: 30%;
     width: 100%;
     font-size: 160%;
 }
@@ -93,10 +100,8 @@ body{
 }
 
 .header_secondLine{
-    margin-top: 12px;
-    height: 60px;
+    height: 70%;
     font-size: 160%;
-
 }
 .header_secondLine .sectionInner{
     display: flex;
@@ -166,7 +171,7 @@ body{
 
 .logo{
     width: 100%;
-    height: 550px;
+    height: 60vh;
     background: #0F2350 url("img/png/city.png") 50% 10% no-repeat;
     background-size: cover;
     position: relative;
@@ -214,7 +219,7 @@ body{
 .fistBlock{
     position: absolute;
     width: 100%;
-    top: 560px;
+    top: 60vh;
 }
 .fistBlock .sectionInner{
     position: relative;
@@ -225,8 +230,8 @@ body{
     justify-content: space-between;
 }
 .fistBlock .sectionInner .firsBlock_card{
-    width: 270px;
-    height: 300px;
+    width: 13vw;
+    height: 32vh;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -274,7 +279,7 @@ body{
 
 .secondBlock{
     width: 100%;
-    height: 790px;
+    height: 85vh;
     background: #ECECEC url("img/png/bgPrev.png") no-repeat;
     background-size: cover;
     position: relative;
@@ -299,8 +304,8 @@ body{
     z-index:10;
 }
 .secondBlock .sectionInner .men{
-    width: 465px;
-    height: 582px;
+    width: 25vw;
+    height: auto;
 }
 .secondBlock .sectionInner .aboutCompany{
     margin-top: 20px;
@@ -340,7 +345,7 @@ body{
 }
 .secondBlock .sectionInner .aboutCompany .listItem img{
     order: 2;
-    margin-left: 10px;
+    margin: 0 10px;
 }
 .secondBlock .sectionInner .aboutCompany .text{
     font-weight: 500;
@@ -370,7 +375,7 @@ body{
 
 .thirdBlock{
     margin-top: 10px;
-    height: 280px;
+    height: 30vh;
 }
 .thirdBlock .sectionInner{
     display: flex;
@@ -400,7 +405,8 @@ body{
 
 .thirdBlock .sectionInner .companiesLogo .companyLogo{
     padding: 0 15px;
-    min-width: 165px;
+    width: 10vw;
+    height: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -429,7 +435,7 @@ body{
 
 .fourthBlock{
     width: 100%;
-    height: 400px;
+    height: 40vh;
     margin-top: 40px;
 }
 .fourthBlock .sectionInner{
@@ -533,22 +539,31 @@ body{
     font-weight: 700;
     font-size: 160%;
 }
-.fourthBlock .sectionInner .form .firstLine div input{
-    margin: 20px 0;
-    width: 100%;
-    line-height: 2;
-    padding: 5px;
-}
+.fourthBlock .sectionInner .form .firstLine div input,
 .fourthBlock .sectionInner .form .commentsArea{
     width: 100%;
-    line-height: 1;
     padding: 5px;
+    font-size: 160%;
+    text-align: right;
+}
+.fourthBlock .sectionInner .form .firstLine div input::placeholder,
+.fourthBlock .sectionInner .form .commentsArea::placeholder,
+.fourthBlock .sectionInner .form .firstLine div input:placeholder-shown,
+.fourthBlock .sectionInner .form .commentsArea:placeholder-shown{
+    direction: rtl;
+}
+.fourthBlock .sectionInner .form .firstLine div input{
+    margin: 20px 0;
+    line-height: 1;
+}
+.fourthBlock .sectionInner .form .commentsArea{
+    line-height: 1;
     resize: none;
 }
 .fourthBlock .sectionInner .form .btn{
     width: 100%;
     margin: 20px 0;
-    height: 60px;
+    height: 100px;
     border: none;
     background-color: #CE2C15;
     color: #FAFAFA;
@@ -578,7 +593,7 @@ body{
 .fifthBlock{
     background-color: #0F2350;
     width: 100%;
-    height: 590px;
+    height: 70vh;
 }
 .fifthBlock .sectionInner{
     display: flex;
@@ -601,8 +616,8 @@ body{
     width: 100%;
 }
 .fifthBlock .sectionInner .news .smallNews .newsItem img{
-    width: 147px;
-    height: 162px;
+    width: 7vw;
+    height: 17vh;
 }
 .fifthBlock .sectionInner .news .smallNews .smallNewsList{
     display: flex;
@@ -614,8 +629,8 @@ body{
 }
 .fifthBlock .sectionInner .news .smallNews .smallNewsList .newsItem{
     background-color: #fafafa;
-    max-width: 375px;
-    max-height: 190px;
+    max-width: 20vw;
+    max-height: 35vh;
     margin-bottom: 20px;
     padding: 10px;
     display: flex;
@@ -664,8 +679,8 @@ body{
     text-align: end;
 }
 .fifthBlock .sectionInner .news .bigNews .bigNewsImg{
-    width: 380px;
-    height: 200px;
+    width: 20vw;
+    height: 20vh;
     object-fit: cover;
 }
  .fifthBlock .sectionInner .news .bigNews .text{
@@ -708,7 +723,7 @@ body{
 .footer{
     background-color: #070F22;
     width: 100%;
-    height: 515px;
+    height: 53vh;
     color: #CFCFCF;
 }
 .footer .sectionInner{
@@ -862,4 +877,81 @@ body{
 .footer .sectionInner .lastLineFooter .copyright{
     font-weight: 300;
     font-size: 150%;
+}
+
+
+@media (min-width: 768px){
+    body{
+        font-size: 8px;
+    }
+    .fistBlock .sectionInner .firsBlock_card{
+        width: 22%;
+    }
+    .secondBlock .sectionInner .men {
+        width: 50%;
+    }
+    .thirdBlock .sectionInner .companiesLogo .companyLogo {
+        width: 20%;
+    }
+    .fourthBlock .sectionInner .form .btn {
+        height: 40px;
+    }
+    .fifthBlock .sectionInner .news .smallNews .smallNewsList .newsItem {
+        max-width: 45%;
+    }
+    .fifthBlock .sectionInner .news .smallNews .newsItem img {
+        width: 40%;
+    }
+    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
+        width: 28vw;
+    }
+}
+@media (min-width: 992px){
+    body{
+        font-size: 10px;
+    }
+    .secondBlock .sectionInner .men {
+        width: 40%;
+    }
+    .fifthBlock .sectionInner .news .smallNews .newsItem img {
+        width: 30%;
+    }
+    .fourthBlock .sectionInner .form .btn {
+        height: 100px;
+    }
+}
+@media (min-width: 1200px){
+    .sectionInner{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .thirdBlock .sectionInner .companiesLogo .companyLogo {
+        width: 15%;
+    }
+    .fifthBlock .sectionInner .news .smallNews .newsItem img {
+        width: 50%;
+    }
+    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
+        width: 28vw;
+    }
+    .secondBlock .sectionInner .men {
+        width: 35%;
+    }
+}
+@media (min-width: 1400px){
+    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
+        width: 25vw;
+    }
+    .secondBlock .sectionInner .men {
+        width: 35%;
+    }    
+}
+@media (min-width: 1920px){
+    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
+        width: 18vw;
+    }
+    .secondBlock .sectionInner .men {
+        width: 60%;
+    }
 }
