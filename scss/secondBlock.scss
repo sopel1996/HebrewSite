@@ -1,9 +1,9 @@
 @import 'mixins.scss';
 .secondBlock{
     width: 100%;
-    height: 743px;
-    background: #fff url("/img/png/bgPrev.png") 50% 346px no-repeat;
-    background-size: contain;
+    height: toRem(743);
+    background: #fff url("/img/png/bgPrev.png") 50% 50% no-repeat;
+    background-size: cover;
     position: relative;
     color: #070F22;
     &::before {
@@ -25,34 +25,34 @@
         z-index:10;
     }
     .men{
-        width: 465px;
-        height: 582px;
+        width: toRem(465);
+        height: toRem(582);
     }
     .aboutCompany{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
         justify-content: center;
-        margin-bottom: 70px;
+        margin-bottom: toRem(70);
         .title{
-            @include almoniBlack;
-            font-size: 48px;
+            @include almoniBlack(48);
+            // font-size: 48px;
             color: #0F2350;
-            margin-bottom: 6px;
+            margin-bottom: toRem(6);
             
         }
         .subTitle{
-            @include almoniBold;
-            font-size: 28px;
+            @include almoniBold(28);
+            // font-size: 28px;
             color: #0F2350;
-            margin-bottom: 20px;
+            margin-bottom: toRem(20);
         }
         .list{
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 28px;
+            margin-bottom: toRem(28);
             
         }
         .listItem{
@@ -60,30 +60,30 @@
             flex-direction: row;
             align-items: center;
             justify-content: center; 
-            margin: 10px 0;
-            @include almoniRegular;
-            font-size: 20px;
+            margin: toRem(10) 0;
+            @include almoniRegular(20);
+            // font-size: 20px;
             img{
                 order: 2;
-                margin: 0 10px;
-                width: 32px;
-                height: 32px;
+                margin: 0 toRem(10);
+                width: toRem(32);
+                height: toRem(32);
             }
         }
         .text{
             text-align: right;
-            @include almoniRegular;
-            font-size: 20px; 
-            margin-bottom: 30px;
+            @include almoniRegular(20);
+            // font-size: 20px; 
+            margin-bottom: toRem(30);
             .firstParagraph{
-                margin-bottom: 30px;
+                margin-bottom: toRem(30);
             }
         }
         .btn{
-            width: 179px;
-            height: 42px;
-            @include almoniBold;
-            font-size: 20px;
+            width: toRem(179);
+            height: toRem(42);
+            @include almoniBold(20);
+            // font-size: 20px;
             border: none;
             background-color: #CE2C15;
             color: #FAFAFA;

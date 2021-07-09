@@ -1,16 +1,29 @@
-@mixin almoniLight {
+@function toRem($value) {
+    $remValue: ($value / 16) + rem; 
+    @return $remValue;
+}
+
+@mixin almoniLight($size_px) {
     font-family: "almoni";
     font-weight: 300;
+    font-size: toRem($size_px);
+    // font-size: $size_px + px;
 }
-@mixin almoniRegular {
+@mixin almoniRegular($size_px) {
     font-family: "almoni";
     font-weight: 500;
+    font-size: toRem($size_px);
+    // font-size: $size_px + px;
 }
-@mixin almoniBold {
+@mixin almoniBold($size_px) {
     font-family: "almoni";
     font-weight: 700;
+    font-size: toRem($size_px);
+    // font-size: $size_px + px;
 }
-@mixin almoniBlack {
+@mixin almoniBlack($size_px) {
     font-family: "almoni";
     font-weight: 900;
+    font-size: toRem($size_px);
+    // font-size: $size_px + px;
 }

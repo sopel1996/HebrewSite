@@ -1,6 +1,6 @@
 .fourthBlock {
   width: 100%;
-  height: 412px;
+  height: 25.75rem;
   margin-top: 50px;
 }
 .fourthBlock .sectionInner {
@@ -20,14 +20,14 @@
 .fourthBlock .information .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 38px;
+  font-size: 2.375rem;
   color: #0F2350;
-  margin-bottom: 34px;
+  margin-bottom: 2.125rem;
 }
 .fourthBlock .information .subTitle {
   font-family: "almoni";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: end;
   color: #0F2350;
 }
@@ -42,9 +42,9 @@
 .fourthBlock .contacts .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 38px;
+  font-size: 2.375rem;
   color: #0F2350;
-  margin-bottom: 34px;
+  margin-bottom: 2.125rem;
 }
 .fourthBlock .contacts .contact {
   display: flex;
@@ -52,24 +52,24 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   text-align: end;
-  font-size: 160%;
+  font-size: 1rem;
 }
 .fourthBlock .contacts .contact > img {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .fourthBlock .contacts .contact .firstLine {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .fourthBlock .contacts .contact .secondLine {
   color: #070F22;
   font-style: normal;
   font-family: "almoni";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .fourthBlock .contacts .contact a {
   color: #070F22;
@@ -85,9 +85,9 @@
 .fourthBlock .form .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 38px;
+  font-size: 2.375rem;
   color: #0F2350;
-  margin-bottom: 34px;
+  margin-bottom: 2.125rem;
   width: 100%;
   text-align: end;
 }
@@ -97,7 +97,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 .fourthBlock .form .firstLine div {
   text-align: end;
@@ -106,17 +106,17 @@
 .fourthBlock .form .firstLine div label {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .fourthBlock .form .firstLine div input {
-  margin: 5px 0;
+  margin: 0.3125rem 0;
   line-height: 1;
 }
 .fourthBlock .form .firstLine div input,
 .fourthBlock .form .commentsArea {
   width: 100%;
-  padding: 10px;
-  font-size: 160%;
+  padding: 0.625rem;
+  font-size: 1rem;
   text-align: right;
 }
 .fourthBlock .form .firstLine div,
@@ -125,9 +125,9 @@
   resize: none;
 }
 .fourthBlock .form .btn {
-  width: 418px;
-  margin: 16px 0;
-  height: 48px;
+  width: 26.125rem;
+  margin: 1rem 0;
+  height: 3rem;
   border: none;
   background-color: #CE2C15;
   color: #FAFAFA;
@@ -139,24 +139,24 @@
 .fourthBlock .form .btn .btnText {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 20px;
-  margin-right: 171px;
+  font-size: 1.25rem;
+  margin-right: 10.6875rem;
 }
 .fourthBlock .form .btn img {
-  margin-right: 114px;
+  margin-right: 7.125rem;
 }
 .fourthBlock .form .FIOConteiner {
   order: 2;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 .fourthBlock .form .PHONEConteiner {
   order: 1;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .fourthBlock .form .commentLabel {
-  margin-bottom: 7px;
-  margin-top: 10px;
+  margin-bottom: 0.4375rem;
+  margin-top: 0.625rem;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
 }

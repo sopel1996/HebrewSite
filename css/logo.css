@@ -1,6 +1,6 @@
 .logo {
   width: 100%;
-  height: 590px;
+  height: 36.875rem;
   background: #0F2350 url("/img/png/banner.png") 50% 50% no-repeat;
   background-size: cover;
   position: relative;
@@ -27,30 +27,30 @@
 .logo .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 64px;
-  margin-bottom: 19px;
+  font-size: 4rem;
+  margin-bottom: 1.1875rem;
 }
 .logo .subtitle {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 36px;
-  margin-bottom: 28px;
+  font-size: 1.5625rem;
+  margin-bottom: 1.75rem;
 }
 .logo .btn {
   color: #FAFAFA;
-  width: 278px;
-  height: 60px;
+  width: 17.375rem;
+  height: 3.75rem;
   border: none;
   background-color: #0F2350;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 115px;
+  margin-bottom: 7.1875rem;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .logo .btn bdo {
-  margin-right: 60px;
+  margin-right: 3.75rem;
 }

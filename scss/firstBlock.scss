@@ -2,7 +2,7 @@
 .firstBlock {
     position: absolute;
     width: 100%;
-    top: 570px;
+    top: toRem(570);
     
     & .sectionInner {
         position: relative;
@@ -14,47 +14,49 @@
     }
     
     &_card {
-        width: 270px;
-        height: 300px;
+        width: toRem(270);
+        height: toRem(300);
         background-color: #fff;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
         color: #0F2350;
-        padding: 0 20px;
+        padding: 0 toRem(20);
         box-shadow: 0 4px 5px 2px rgba(184, 183, 183, 0.678);
     
         .logoCard{
-            padding-top: 25px;
+            padding-top: toRem(25);
+            width: toRem(80+25);
+            height: toRem(80+25);
         }
         & hr {
-            width: 231px;
+            width: toRem(231);
             height: 1px;
             border: 0;
             background-color: #ECECEC;
-            margin-top: 30px;
+            margin-top: toRem(30);
           }
         
         & .text {
-            height: 89px;
+            height: toRem(89);
             display: flex;
             flex-direction: column;
             align-items: flex-end;
             justify-content: center;
-            padding-top: 60px;
+            padding-top: toRem(60);
             
             & .title {
-                @include almoniBold;
-                font-size: 24px;
+                @include almoniBold(24);
+                // font-size: 24px;
                 text-align: right;
-                margin-bottom: 5px;
+                margin-bottom: toRem(5);
                 color: #0F2350;
             }
             
             & .subTitle {
-                @include almoniRegular;
-                font-size: 18px;
+                @include almoniRegular(18);
+                // font-size: 18px;
                 text-align: right;
                 color: #888888;
             }
@@ -67,8 +69,8 @@
             justify-content: space-between;
             align-items: center;
             color: #CE2C15;
-            @include almoniBold;
-            font-size: 16px;
+            @include almoniBold(16);
+            // font-size: 16px;
         }
     }
 }

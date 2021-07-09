@@ -1,7 +1,7 @@
 @import 'mixins.scss';
 .logo {
     width: 100%;
-    height: 590px;
+    height: toRem(590);
     background: #0F2350 url("/img/png/banner.png") 50% 50% no-repeat;
     background-size: cover;
     position: relative;
@@ -28,35 +28,35 @@
     }
     
     & .title {
-        @include almoniBlack;
-        font-size: 64px;
-        margin-bottom: 19px
+        @include almoniBlack(64);
+        // font-size: 64px;
+        margin-bottom: toRem(19)
         
     }
     
     & .subtitle {
-        @include almoniBold;
-        font-size: 36px;
-        margin-bottom: 28px
+        @include almoniBold(25);
+        // font-size: 36px;
+        margin-bottom: toRem(28)
         
     }
     
     & .btn {
         color: #FAFAFA; 
-        width: 278px;
-        height: 60px;
+        width: toRem(278);
+        height: toRem(60);
         border: none;
         background-color: #0F2350;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin-bottom: 115px;
+        margin-bottom: toRem(115);
 
-        @include almoniBold;
-        font-size: 20px;
+        @include almoniBold(20);
+        // font-size: 20px;
         bdo{
-            margin-right: 60px;
+            margin-right: toRem(60);
         }
     }
 }

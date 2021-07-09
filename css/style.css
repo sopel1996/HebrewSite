@@ -38,6 +38,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+html {
+  font-size: 16px;
+}
+
 ._gray {
   color: #888888;
 }
@@ -48,13 +52,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
   cursor: pointer;
-  font-size: 160%;
+  font-size: 1rem;
 }
 
 body {
-  font-size: 10px;
   font-family: "almoni";
   font-weight: 500;
+  font-size: 0.625rem;
 }
 
 .sectionInner {
@@ -66,17 +70,17 @@ body {
 
 .header {
   width: 100%;
-  height: 13vh;
   font-family: "almoni";
   font-weight: 500;
+  font-size: 0.875rem;
   line-height: 105%;
 }
 .header_firstLine {
-  height: 40px;
+  height: 2.5rem;
   width: 100%;
   font-family: "almoni";
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #FAFAFA;
 }
 .header_firstLine .sectionInner {
@@ -89,7 +93,7 @@ body {
   order: 1;
 }
 .header_firstLine-social img {
-  margin: 0 16px 0 0;
+  margin: 0 1rem 0 0;
 }
 .header_firstLine-contacts {
   display: flex;
@@ -109,8 +113,8 @@ body {
   font-style: normal;
 }
 .header_firstLine-contacts-item img {
-  margin-right: 29px;
-  margin-left: 10px;
+  margin-right: 1.8125rem;
+  margin-left: 0.625rem;
   float: right;
 }
 .header_firstLine-contacts-item:last-child img {
@@ -121,8 +125,8 @@ body {
   text-decoration: none;
 }
 .header_secondLine {
-  height: 80px;
-  font-size: 20px;
+  height: 5rem;
+  font-size: 1.25rem;
   width: 100%;
 }
 .header_secondLine .sectionInner {
@@ -136,7 +140,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 40px;
+  height: 2.5rem;
 }
 .header_secondLine-contacts-phone .text {
   display: flex;
@@ -144,24 +148,24 @@ body {
   align-items: flex-end;
   justify-content: space-between;
   height: 100%;
-  margin-right: 15px;
-  width: 115px;
+  margin-right: 0.9375rem;
+  width: 7.1875rem;
 }
 .header_secondLine-contacts-phone .text a {
   text-decoration: none;
   color: #070F22;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 120%;
 }
 .header_secondLine-contacts-phone .text .title {
   color: #0F2350;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .header_secondLine-contacts-phone img {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .header_secondLine-nav {
   display: flex;
@@ -169,7 +173,7 @@ body {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  width: 653px;
+  width: 40.8125rem;
   color: #070F22;
 }
 .header_secondLine-nav a {
@@ -178,6 +182,7 @@ body {
 .header_secondLine-nav a:hover {
   font-family: "almoni";
   font-weight: 700;
+  font-size: 0.875rem;
 }
 .header_secondLine-logo {
   display: flex;
@@ -185,36 +190,36 @@ body {
   align-items: center;
   justify-content: space-between;
   color: #0F2350;
-  height: 55px;
+  height: 3.4375rem;
 }
 .header_secondLine-logo .text {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
-  margin-right: 15px;
+  margin-right: 0.9375rem;
   height: 100%;
 }
 .header_secondLine-logo .title {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #0F2350;
 }
 .header_secondLine-logo .subTitle {
   font-family: "almoni";
   font-weight: 500;
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: #888888;
 }
 .header_secondLine-logo img {
-  widows: 55px;
-  height: 55px;
+  widows: 3.4375rem;
+  height: 3.4375rem;
 }
 
 .logo {
   width: 100%;
-  height: 590px;
+  height: 36.875rem;
   background: #0F2350 url("/img/png/banner.png") 50% 50% no-repeat;
   background-size: cover;
   position: relative;
@@ -241,38 +246,38 @@ body {
 .logo .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 64px;
-  margin-bottom: 19px;
+  font-size: 4rem;
+  margin-bottom: 1.1875rem;
 }
 .logo .subtitle {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 36px;
-  margin-bottom: 28px;
+  font-size: 1.5625rem;
+  margin-bottom: 1.75rem;
 }
 .logo .btn {
   color: #FAFAFA;
-  width: 278px;
-  height: 60px;
+  width: 17.375rem;
+  height: 3.75rem;
   border: none;
   background-color: #0F2350;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 115px;
+  margin-bottom: 7.1875rem;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .logo .btn bdo {
-  margin-right: 60px;
+  margin-right: 3.75rem;
 }
 
 .firstBlock {
   position: absolute;
   width: 100%;
-  top: 570px;
+  top: 35.625rem;
 }
 .firstBlock .sectionInner {
   position: relative;
@@ -283,47 +288,49 @@ body {
   justify-content: space-between;
 }
 .firstBlock_card {
-  width: 270px;
-  height: 300px;
+  width: 16.875rem;
+  height: 18.75rem;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   color: #0F2350;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   box-shadow: 0 4px 5px 2px rgba(184, 183, 183, 0.678);
 }
 .firstBlock_card .logoCard {
-  padding-top: 25px;
+  padding-top: 1.5625rem;
+  width: 6.5625rem;
+  height: 6.5625rem;
 }
 .firstBlock_card hr {
-  width: 231px;
+  width: 14.4375rem;
   height: 1px;
   border: 0;
   background-color: #ECECEC;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 .firstBlock_card .text {
-  height: 89px;
+  height: 5.5625rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  padding-top: 60px;
+  padding-top: 3.75rem;
 }
 .firstBlock_card .text .title {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: right;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
   color: #0F2350;
 }
 .firstBlock_card .text .subTitle {
   font-family: "almoni";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   text-align: right;
   color: #888888;
 }
@@ -336,14 +343,14 @@ body {
   color: #CE2C15;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .secondBlock {
   width: 100%;
-  height: 743px;
-  background: #fff url("/img/png/bgPrev.png") 50% 346px no-repeat;
-  background-size: contain;
+  height: 46.4375rem;
+  background: #fff url("/img/png/bgPrev.png") 50% 50% no-repeat;
+  background-size: cover;
   position: relative;
   color: #070F22;
 }
@@ -366,69 +373,69 @@ body {
   z-index: 10;
 }
 .secondBlock .men {
-  width: 465px;
-  height: 582px;
+  width: 29.0625rem;
+  height: 36.375rem;
 }
 .secondBlock .aboutCompany {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  margin-bottom: 70px;
+  margin-bottom: 4.375rem;
 }
 .secondBlock .aboutCompany .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 48px;
+  font-size: 3rem;
   color: #0F2350;
-  margin-bottom: 6px;
+  margin-bottom: 0.375rem;
 }
 .secondBlock .aboutCompany .subTitle {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 28px;
+  font-size: 1.75rem;
   color: #0F2350;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .secondBlock .aboutCompany .list {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 28px;
+  margin-bottom: 1.75rem;
 }
 .secondBlock .aboutCompany .listItem {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin: 10px 0;
+  margin: 0.625rem 0;
   font-family: "almoni";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .secondBlock .aboutCompany .listItem img {
   order: 2;
-  margin: 0 10px;
-  width: 32px;
-  height: 32px;
+  margin: 0 0.625rem;
+  width: 2rem;
+  height: 2rem;
 }
 .secondBlock .aboutCompany .text {
   text-align: right;
   font-family: "almoni";
   font-weight: 500;
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-size: 1.25rem;
+  margin-bottom: 1.875rem;
 }
 .secondBlock .aboutCompany .text .firstParagraph {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 .secondBlock .aboutCompany .btn {
-  width: 179px;
-  height: 42px;
+  width: 11.1875rem;
+  height: 2.625rem;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   border: none;
   background-color: #CE2C15;
   color: #FAFAFA;
@@ -439,8 +446,8 @@ body {
 }
 
 .thirdBlock {
-  margin-top: 10px;
-  height: 30vh;
+  margin-top: 0.625rem;
+  height: 16.5rem;
 }
 .thirdBlock .sectionInner {
   display: flex;
@@ -451,16 +458,16 @@ body {
 .thirdBlock .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 48px;
+  font-size: 3rem;
   color: #0F2350;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .thirdBlock .subTitle {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 28px;
+  font-size: 1.75rem;
   color: #0F2350;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .thirdBlock .companiesLogo {
   width: 100%;
@@ -470,9 +477,9 @@ body {
   justify-content: space-between;
 }
 .thirdBlock .companiesLogo .companyLogo {
-  padding: 0 12px 14px 18px;
-  width: 165px;
-  height: 110px;
+  padding: 0 0.75rem 0.875rem 1.125rem;
+  width: 10.3125rem;
+  height: 6.875rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -480,11 +487,11 @@ body {
   box-shadow: 0 2px 5px 2px rgba(184, 183, 183, 0.678);
 }
 .thirdBlock .companiesLogo .companyLogo img {
-  width: 129px;
-  height: 76px;
+  width: 8.0625rem;
+  height: 4.75rem;
 }
 .thirdBlock .companiesLogo .companyLogo hr {
-  width: 142px;
+  width: 8.875rem;
   height: 1px;
   border: 0;
   background-color: #ECECEC;
@@ -500,17 +507,17 @@ body {
 .thirdBlock .companiesLogo .companyLogo .date {
   font-family: "almoni";
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .thirdBlock .companiesLogo .companyLogo .text {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .fourthBlock {
   width: 100%;
-  height: 412px;
+  height: 25.75rem;
   margin-top: 50px;
 }
 .fourthBlock .sectionInner {
@@ -530,14 +537,14 @@ body {
 .fourthBlock .information .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 38px;
+  font-size: 2.375rem;
   color: #0F2350;
-  margin-bottom: 34px;
+  margin-bottom: 2.125rem;
 }
 .fourthBlock .information .subTitle {
   font-family: "almoni";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   text-align: end;
   color: #0F2350;
 }
@@ -552,9 +559,9 @@ body {
 .fourthBlock .contacts .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 38px;
+  font-size: 2.375rem;
   color: #0F2350;
-  margin-bottom: 34px;
+  margin-bottom: 2.125rem;
 }
 .fourthBlock .contacts .contact {
   display: flex;
@@ -562,24 +569,24 @@ body {
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   text-align: end;
-  font-size: 160%;
+  font-size: 1rem;
 }
 .fourthBlock .contacts .contact > img {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .fourthBlock .contacts .contact .firstLine {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .fourthBlock .contacts .contact .secondLine {
   color: #070F22;
   font-style: normal;
   font-family: "almoni";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .fourthBlock .contacts .contact a {
   color: #070F22;
@@ -595,9 +602,9 @@ body {
 .fourthBlock .form .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 38px;
+  font-size: 2.375rem;
   color: #0F2350;
-  margin-bottom: 34px;
+  margin-bottom: 2.125rem;
   width: 100%;
   text-align: end;
 }
@@ -607,7 +614,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 .fourthBlock .form .firstLine div {
   text-align: end;
@@ -616,17 +623,17 @@ body {
 .fourthBlock .form .firstLine div label {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .fourthBlock .form .firstLine div input {
-  margin: 5px 0;
+  margin: 0.3125rem 0;
   line-height: 1;
 }
 .fourthBlock .form .firstLine div input,
 .fourthBlock .form .commentsArea {
   width: 100%;
-  padding: 10px;
-  font-size: 160%;
+  padding: 0.625rem;
+  font-size: 1rem;
   text-align: right;
 }
 .fourthBlock .form .firstLine div,
@@ -635,9 +642,9 @@ body {
   resize: none;
 }
 .fourthBlock .form .btn {
-  width: 418px;
-  margin: 16px 0;
-  height: 48px;
+  width: 26.125rem;
+  margin: 1rem 0;
+  height: 3rem;
   border: none;
   background-color: #CE2C15;
   color: #FAFAFA;
@@ -649,32 +656,32 @@ body {
 .fourthBlock .form .btn .btnText {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 20px;
-  margin-right: 171px;
+  font-size: 1.25rem;
+  margin-right: 10.6875rem;
 }
 .fourthBlock .form .btn img {
-  margin-right: 114px;
+  margin-right: 7.125rem;
 }
 .fourthBlock .form .FIOConteiner {
   order: 2;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 .fourthBlock .form .PHONEConteiner {
   order: 1;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .fourthBlock .form .commentLabel {
-  margin-bottom: 7px;
-  margin-top: 10px;
+  margin-bottom: 0.4375rem;
+  margin-top: 0.625rem;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .fifthBlock {
   background-color: #0F2350;
   width: 100%;
-  height: 589px;
+  height: 36.8125rem;
 }
 .fifthBlock .sectionInner {
   display: flex;
@@ -685,7 +692,7 @@ body {
 .fifthBlock .title {
   font-family: "almoni";
   font-weight: 900;
-  font-size: 48px;
+  font-size: 3rem;
   color: #FAFAFA;
 }
 .fifthBlock .news {
@@ -696,7 +703,7 @@ body {
 }
 .fifthBlock .news .smallNews {
   width: 100%;
-  height: 426px;
+  height: 26.625rem;
 }
 .fifthBlock .news .smallNews .smallNewsList {
   display: flex;
@@ -704,61 +711,61 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .fifthBlock .news .smallNews .smallNewsList .newsItem {
   background-color: #fafafa;
-  width: 375px;
-  height: 182px;
-  padding: 10px;
+  width: 23.4375rem;
+  height: 11.375rem;
+  padding: 0.625rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 .fifthBlock .news .smallNews .smallNewsList .newsItem:nth-child(4n+1), .fifthBlock .news .smallNews .smallNewsList .newsItem:nth-child(4n+2) {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .fifthBlock .news .smallNews .smallNewsList .newsItem .text {
   order: 1;
   text-align: end;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .fifthBlock .news .smallNews .smallNewsList .newsItem .text .title {
   color: #0F2350;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .fifthBlock .news .smallNews .smallNewsList .newsItem .text .subTitle {
   font-family: "almoni";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #0F2350;
 }
 .fifthBlock .news .smallNews .smallNewsList .newsItem img {
   object-fit: cover;
   order: 2;
-  width: 147px;
-  height: 162px;
+  width: 9.1875rem;
+  height: 10.125rem;
 }
 .fifthBlock .news .smallNews .more {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 160%;
+  font-size: 1rem;
   color: #fafafa;
-  margin: 12px 20px 12px 0;
+  margin: 0.75rem 1.25rem 0.75rem 0;
 }
 .fifthBlock .news .smallNews hr {
   height: 1px;
   border: 0;
   background-color: #ECECEC;
-  margin: 0 20px 0 0;
+  margin: 0 1.25rem 0 0;
 }
 .fifthBlock .news .bigNews {
-  height: 426px;
-  width: 376px;
+  height: 26.625rem;
+  width: 23.5rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -767,12 +774,12 @@ body {
   text-align: end;
 }
 .fifthBlock .news .bigNews .bigNewsImg {
-  width: 376px;
-  height: 200px;
+  width: 23.5rem;
+  height: 12.5rem;
   object-fit: cover;
 }
 .fifthBlock .news .bigNews .text {
-  padding: 0 20px 10px;
+  padding: 0 1.25rem 0.625rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -783,21 +790,21 @@ body {
   color: #0F2350;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
 }
 .fifthBlock .news .bigNews .text .subTitle {
   font-family: "almoni";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #0F2350;
   text-align: end;
-  margin-top: 10px;
+  margin-top: 0.625rem;
 }
 .fifthBlock .news .bigNews .text .date {
   font-family: "almoni";
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #CFCFCF;
 }
 .fifthBlock .news .bigNews hr {
@@ -807,20 +814,20 @@ body {
 }
 .fifthBlock .news .bigNews .more {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 1.25rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: #CE2C15;
-  margin-bottom: 10px;
-  font-size: 160%;
+  margin-bottom: 0.625rem;
+  font-size: 1rem;
 }
 
 .footer {
   background-color: #070F22;
   width: 100%;
-  height: 589px;
+  height: 31.25rem;
   color: #CFCFCF;
 }
 .footer .sectionInner {
@@ -830,7 +837,7 @@ body {
   width: 100%;
 }
 .footer .mainFooter {
-  margin-top: 27px;
+  margin-top: 1.6875rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -842,19 +849,19 @@ body {
   text-align: end;
 }
 .footer .mainFooter .footerList .footerListItem {
-  margin-top: 7px;
+  margin-top: 0.4375rem;
 }
 .footer .mainFooter .footerList .footerListItem a {
   text-decoration: none;
   color: #CFCFCF;
   font-family: "almoni";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .footer .mainFooter .title {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .footer .mainFooter hr {
   width: 100%;
@@ -880,7 +887,7 @@ body {
   font-weight: 900;
   font-size: 480%;
   color: #0F2350;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .footer .mainFooter .contacts .contact {
   display: flex;
@@ -888,11 +895,11 @@ body {
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
   text-align: end;
 }
 .footer .mainFooter .contacts .contact > img {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .footer .mainFooter .contacts .contact .text .title {
   font-weight: 900;
@@ -901,7 +908,7 @@ body {
 }
 .footer .mainFooter .contacts .contact .firstLine {
   font-size: 220%;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 .footer .mainFooter .contacts .contact .secondLine {
   font-size: 160%;
@@ -924,22 +931,22 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 .footer .mainFooter .time .timeText .text .firstLine {
   text-align: right;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .footer .mainFooter .time .timeText .text .secondLine {
   text-align: right;
   font-family: "almoni";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .footer .mainFooter .time .timeText img {
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 .footer .mainFooter .category {
   height: 100%;
@@ -975,7 +982,7 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 .footer .lastLineFooter .design {
   display: flex;
@@ -987,16 +994,18 @@ body {
   border: none;
   border-left: 1px solid #CFCFCF;
   color: #CFCFCF;
+  font-family: "almoni";
   font-weight: 300;
-  font-size: 150%;
+  font-size: 0.9375rem;
   line-height: 2;
-  margin-left: 10px;
-  padding-left: 10px;
+  margin-left: 0.625rem;
+  padding-left: 0.625rem;
 }
 .footer .lastLineFooter .messangers img {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .footer .lastLineFooter .copyright {
+  font-family: "almoni";
   font-weight: 300;
-  font-size: 150%;
+  font-size: 0.9375rem;
 }

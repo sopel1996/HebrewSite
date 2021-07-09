@@ -1,17 +1,16 @@
 @import 'mixins.scss';
 .header {
     width: 100%;
-    height: 13vh;
-    @include almoniRegular;
+    @include almoniRegular(14);
     line-height: 105%;
 
     
     &_firstLine {
         
-        height: 40px;
+        height: toRem(40);
         width: 100%;
-        @include almoniRegular;
-        font-size: 14px;
+        @include almoniRegular(14);
+        // font-size: 14px;
         color: #FAFAFA;
         
         & .sectionInner {
@@ -25,7 +24,7 @@
             order: 1;
             
             & img {
-                margin: 0 16px 0 0;
+                margin: 0 toRem(16) 0 0;
             }
         }
                
@@ -47,8 +46,8 @@
                 }
                 
                 & img {
-                    margin-right: 29px;
-                    margin-left: 10px;
+                    margin-right: toRem(29);
+                    margin-left: toRem(10);
                     float: right;
                 }
                 &:last-child{
@@ -67,8 +66,8 @@
         
     }
     &_secondLine {
-        height: 80px;
-        font-size: 20px;
+        height: toRem(80);
+        font-size: toRem(20);
         width: 100%;
 
         
@@ -84,7 +83,7 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
-            height: 40px;
+            height: toRem(40);
         
         
             & .text {
@@ -93,25 +92,25 @@
                 align-items: flex-end;
                 justify-content: space-between;
                 height: 100%;
-                margin-right: 15px;
-                width: 115px;
+                margin-right: toRem(15);
+                width: toRem(115);
                 
                 & a {
                     text-decoration: none;
                     color: #070F22;
-                    @include almoniBold;
-                    font-size: 24px;
+                    @include almoniBold(24);
+                    // font-size: 24px;
                     line-height: 120%;
                 }
                 
                 & .title {
                     color: #0F2350;
-                    font-size: 16px;
+                    font-size: toRem(16);
                 }
             }
             & img{
-                width: 40px;
-                height: 40px;
+                width: toRem(40);
+                height: toRem(40);
             }
         }
         &-nav {
@@ -120,13 +119,13 @@
             align-items: center;
             justify-content: space-between;
             list-style: none;
-            width: 653px;
+            width: toRem(653);
             color: #070F22;
             
             & a {
                 color: #070F22;
             &:hover{
-                @include almoniBold;
+                @include almoniBold(14);
             }
             }
 
@@ -138,33 +137,33 @@
             align-items: center;
             justify-content: space-between;
             color: #0F2350;
-            height: 55px;
+            height: toRem(55);
             
             & .text {
                 display: flex;
                 flex-direction: column;
                 align-items: flex-end;
                 justify-content: space-around;
-                margin-right: 15px;
+                margin-right: toRem(15);
                 height: 100%;
             }
             
             & .title {
-                @include almoniBold;
-                font-size: 40px;
+                @include almoniBold(40);
+                // font-size: 40px;
                 color: #0F2350;
                 // line-height: 105%
             }
             
             & .subTitle {
-                @include almoniRegular;
-                font-size: 17px;
+                @include almoniRegular(17);
+                // font-size: 17px;
                 color: #888888;
                 // line-height: 105%
             }
             & img{
-                widows: 55px;
-                height: 55px;
+                widows: toRem(55);
+                height: toRem(55);
             }
         }
         

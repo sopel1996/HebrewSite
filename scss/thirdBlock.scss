@@ -1,7 +1,7 @@
 @import 'mixins.scss';
 .thirdBlock{
-    margin-top: 10px;
-    height: 30vh;
+    margin-top: toRem(10);
+    height: toRem(264);
     .sectionInner{
         display: flex;
         flex-direction: column;
@@ -9,16 +9,16 @@
         justify-content: center;
     }
     .title{
-        @include almoniBlack;
-        font-size: 48px;
+        @include almoniBlack(48);
+        // font-size: 48px;
         color: #0F2350;
-        margin-bottom: 20px;
+        margin-bottom: toRem(20);
     }
     .subTitle{
-        @include almoniBold;
-        font-size: 28px;
+        @include almoniBold(28);
+        // font-size: 28px;
         color: #0F2350;
-        margin-bottom: 20px;
+        margin-bottom: toRem(20);
     }
     .companiesLogo{
         width: 100%;
@@ -28,9 +28,9 @@
         justify-content: space-between;
         
         .companyLogo{
-            padding: 0 12px 14px 18px;
-            width: 165px;
-            height: 110px;
+            padding: 0 toRem(12) toRem(14) toRem(18);
+            width: toRem(165);
+            height: toRem(110);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -38,12 +38,12 @@
             box-shadow: 0 2px 5px 2px rgba(184, 183, 183, 0.678);
             img{
                 // margin-bottom: 10px;
-                width: 129px;
-                height: 76px;
+                width: toRem(129);
+                height: toRem(76);
 
             }
             hr{
-                    width: 142px;
+                    width: toRem(142);
                     height: 1px;
                     border: 0;
                     background-color: #ECECEC;
@@ -59,12 +59,12 @@
                 // font-size: 160%;
             }
             .date{
-                @include almoniRegular;
-                font-size: 12px;
+                @include almoniRegular(12);
+                // font-size: 12px;
             }
             .text{
-                @include almoniBold;
-                font-size: 16px;
+                @include almoniBold(16);
+                // font-size: 16px;
                 // font-weight: 700;
             }
         }

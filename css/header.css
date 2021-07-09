@@ -1,16 +1,16 @@
 .header {
   width: 100%;
-  height: 13vh;
   font-family: "almoni";
   font-weight: 500;
+  font-size: 0.875rem;
   line-height: 105%;
 }
 .header_firstLine {
-  height: 40px;
+  height: 2.5rem;
   width: 100%;
   font-family: "almoni";
   font-weight: 500;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #FAFAFA;
 }
 .header_firstLine .sectionInner {
@@ -23,7 +23,7 @@
   order: 1;
 }
 .header_firstLine-social img {
-  margin: 0 16px 0 0;
+  margin: 0 1rem 0 0;
 }
 .header_firstLine-contacts {
   display: flex;
@@ -43,8 +43,8 @@
   font-style: normal;
 }
 .header_firstLine-contacts-item img {
-  margin-right: 29px;
-  margin-left: 10px;
+  margin-right: 1.8125rem;
+  margin-left: 0.625rem;
   float: right;
 }
 .header_firstLine-contacts-item:last-child img {
@@ -55,8 +55,8 @@
   text-decoration: none;
 }
 .header_secondLine {
-  height: 80px;
-  font-size: 20px;
+  height: 5rem;
+  font-size: 1.25rem;
   width: 100%;
 }
 .header_secondLine .sectionInner {
@@ -70,7 +70,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 40px;
+  height: 2.5rem;
 }
 .header_secondLine-contacts-phone .text {
   display: flex;
@@ -78,24 +78,24 @@
   align-items: flex-end;
   justify-content: space-between;
   height: 100%;
-  margin-right: 15px;
-  width: 115px;
+  margin-right: 0.9375rem;
+  width: 7.1875rem;
 }
 .header_secondLine-contacts-phone .text a {
   text-decoration: none;
   color: #070F22;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 120%;
 }
 .header_secondLine-contacts-phone .text .title {
   color: #0F2350;
-  font-size: 16px;
+  font-size: 1rem;
 }
 .header_secondLine-contacts-phone img {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .header_secondLine-nav {
   display: flex;
@@ -103,7 +103,7 @@
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  width: 653px;
+  width: 40.8125rem;
   color: #070F22;
 }
 .header_secondLine-nav a {
@@ -112,6 +112,7 @@
 .header_secondLine-nav a:hover {
   font-family: "almoni";
   font-weight: 700;
+  font-size: 0.875rem;
 }
 .header_secondLine-logo {
   display: flex;
@@ -119,29 +120,29 @@
   align-items: center;
   justify-content: space-between;
   color: #0F2350;
-  height: 55px;
+  height: 3.4375rem;
 }
 .header_secondLine-logo .text {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
-  margin-right: 15px;
+  margin-right: 0.9375rem;
   height: 100%;
 }
 .header_secondLine-logo .title {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 40px;
+  font-size: 2.5rem;
   color: #0F2350;
 }
 .header_secondLine-logo .subTitle {
   font-family: "almoni";
   font-weight: 500;
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: #888888;
 }
 .header_secondLine-logo img {
-  widows: 55px;
-  height: 55px;
+  widows: 3.4375rem;
+  height: 3.4375rem;
 }

@@ -2,7 +2,7 @@
 .footer {
   background-color: #070F22;
   width: 100%;
-  height: 589px;
+  height: 31.25rem;
   color: #CFCFCF;
 }
 .footer .sectionInner {
@@ -12,7 +12,7 @@
   width: 100%;
 }
 .footer .mainFooter {
-  margin-top: 27px;
+  margin-top: 1.6875rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -24,19 +24,19 @@
   text-align: end;
 }
 .footer .mainFooter .footerList .footerListItem {
-  margin-top: 7px;
+  margin-top: 0.4375rem;
 }
 .footer .mainFooter .footerList .footerListItem a {
   text-decoration: none;
   color: #CFCFCF;
   font-family: "almoni";
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .footer .mainFooter .title {
   font-family: "almoni";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .footer .mainFooter hr {
   width: 100%;
@@ -62,7 +62,7 @@
   font-weight: 900;
   font-size: 480%;
   color: #0F2350;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .footer .mainFooter .contacts .contact {
   display: flex;
@@ -70,11 +70,11 @@
   align-items: center;
   justify-content: flex-end;
   width: 100%;
-  margin-bottom: 18px;
+  margin-bottom: 1.125rem;
   text-align: end;
 }
 .footer .mainFooter .contacts .contact > img {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 .footer .mainFooter .contacts .contact .text .title {
   font-weight: 900;
@@ -83,7 +83,7 @@
 }
 .footer .mainFooter .contacts .contact .firstLine {
   font-size: 220%;
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 .footer .mainFooter .contacts .contact .secondLine {
   font-size: 160%;
@@ -106,22 +106,22 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 .footer .mainFooter .time .timeText .text .firstLine {
   text-align: right;
   font-family: "almoni";
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .footer .mainFooter .time .timeText .text .secondLine {
   text-align: right;
   font-family: "almoni";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .footer .mainFooter .time .timeText img {
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 .footer .mainFooter .category {
   height: 100%;
@@ -157,7 +157,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 .footer .lastLineFooter .design {
   display: flex;
@@ -169,16 +169,18 @@
   border: none;
   border-left: 1px solid #CFCFCF;
   color: #CFCFCF;
+  font-family: "almoni";
   font-weight: 300;
-  font-size: 150%;
+  font-size: 0.9375rem;
   line-height: 2;
-  margin-left: 10px;
-  padding-left: 10px;
+  margin-left: 0.625rem;
+  padding-left: 0.625rem;
 }
 .footer .lastLineFooter .messangers img {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .footer .lastLineFooter .copyright {
+  font-family: "almoni";
   font-weight: 300;
-  font-size: 150%;
+  font-size: 0.9375rem;
 }

@@ -1,3 +1,4 @@
+@import 'mixins.scss';
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +14,10 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+html{
+    font-size: 16px;
+}
+
 ._gray {
     color: #888888;
 }
@@ -23,13 +28,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
     cursor: pointer;
-    font-size: 160%;
+    font-size: toRem(16);
 }
 
 body {
-    font-size: 10px;
-    font-family: "almoni";
-    font-weight: 500
+    @include almoniRegular(10);
 }
 
 .sectionInner {
