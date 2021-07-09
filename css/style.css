@@ -1,0 +1,1002 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "almoni";
+  src: url("/fonts/almoni-dl-aaa-light.otf") format("openType");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "almoni";
+  src: url("/fonts/almoni-dl-aaa-regular.otf") format("openType");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "almoni";
+  src: url("/fonts/almoni-dl-aaa-bold.otf") format("openType");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "almoni";
+  src: url("/fonts/almoni-dl-aaa-black.otf") format("openType");
+  font-weight: 900;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+._gray {
+  color: #888888;
+}
+
+._white {
+  color: #fff;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 160%;
+}
+
+body {
+  font-size: 10px;
+  font-family: "almoni";
+  font-weight: 500;
+}
+
+.sectionInner {
+  max-width: 1167px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 13vh;
+  font-family: "almoni";
+  font-weight: 500;
+  line-height: 105%;
+}
+.header_firstLine {
+  height: 40px;
+  width: 100%;
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 14px;
+  color: #FAFAFA;
+}
+.header_firstLine .sectionInner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_firstLine-social {
+  order: 1;
+}
+.header_firstLine-social img {
+  margin: 0 16px 0 0;
+}
+.header_firstLine-contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  order: 2;
+}
+.header_firstLine-contacts-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.header_firstLine-contacts-item address {
+  display: inline;
+  font-style: normal;
+}
+.header_firstLine-contacts-item img {
+  margin-right: 29px;
+  margin-left: 10px;
+  float: right;
+}
+.header_firstLine-contacts-item:last-child img {
+  margin-right: 0;
+}
+.header_firstLine-contacts a {
+  color: #FAFAFA;
+  text-decoration: none;
+}
+.header_secondLine {
+  height: 80px;
+  font-size: 20px;
+  width: 100%;
+}
+.header_secondLine .sectionInner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_secondLine-contacts-phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+}
+.header_secondLine-contacts-phone .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 100%;
+  margin-right: 15px;
+  width: 115px;
+}
+.header_secondLine-contacts-phone .text a {
+  text-decoration: none;
+  color: #070F22;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+}
+.header_secondLine-contacts-phone .text .title {
+  color: #0F2350;
+  font-size: 16px;
+}
+.header_secondLine-contacts-phone img {
+  width: 40px;
+  height: 40px;
+}
+.header_secondLine-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 653px;
+  color: #070F22;
+}
+.header_secondLine-nav a {
+  color: #070F22;
+}
+.header_secondLine-nav a:hover {
+  font-family: "almoni";
+  font-weight: 700;
+}
+.header_secondLine-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #0F2350;
+  height: 55px;
+}
+.header_secondLine-logo .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin-right: 15px;
+  height: 100%;
+}
+.header_secondLine-logo .title {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 40px;
+  color: #0F2350;
+}
+.header_secondLine-logo .subTitle {
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 17px;
+  color: #888888;
+}
+.header_secondLine-logo img {
+  widows: 55px;
+  height: 55px;
+}
+
+.logo {
+  width: 100%;
+  height: 590px;
+  background: #0F2350 url("/img/png/banner.png") 50% 50% no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #FAFAFA;
+}
+.logo::before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #0f23504D;
+}
+.logo .sectionInner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.logo .title {
+  font-family: "almoni";
+  font-weight: 900;
+  font-size: 64px;
+  margin-bottom: 19px;
+}
+.logo .subtitle {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 28px;
+}
+.logo .btn {
+  color: #FAFAFA;
+  width: 278px;
+  height: 60px;
+  border: none;
+  background-color: #0F2350;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 115px;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 20px;
+}
+.logo .btn bdo {
+  margin-right: 60px;
+}
+
+.firstBlock {
+  position: absolute;
+  width: 100%;
+  top: 570px;
+}
+.firstBlock .sectionInner {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.firstBlock_card {
+  width: 270px;
+  height: 300px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #0F2350;
+  padding: 0 20px;
+  box-shadow: 0 4px 5px 2px rgba(184, 183, 183, 0.678);
+}
+.firstBlock_card .logoCard {
+  padding-top: 25px;
+}
+.firstBlock_card hr {
+  width: 231px;
+  height: 1px;
+  border: 0;
+  background-color: #ECECEC;
+  margin-top: 30px;
+}
+.firstBlock_card .text {
+  height: 89px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding-top: 60px;
+}
+.firstBlock_card .text .title {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 5px;
+  color: #0F2350;
+}
+.firstBlock_card .text .subTitle {
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 18px;
+  text-align: right;
+  color: #888888;
+}
+.firstBlock_card .more {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #CE2C15;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.secondBlock {
+  width: 100%;
+  height: 743px;
+  background: #fff url("/img/png/bgPrev.png") 50% 346px no-repeat;
+  background-size: contain;
+  position: relative;
+  color: #070F22;
+}
+.secondBlock::before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(236, 236, 236, 0.76);
+}
+.secondBlock .sectionInner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 10;
+}
+.secondBlock .men {
+  width: 465px;
+  height: 582px;
+}
+.secondBlock .aboutCompany {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.secondBlock .aboutCompany .title {
+  font-family: "almoni";
+  font-weight: 900;
+  font-size: 48px;
+  color: #0F2350;
+  margin-bottom: 6px;
+}
+.secondBlock .aboutCompany .subTitle {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 28px;
+  color: #0F2350;
+  margin-bottom: 20px;
+}
+.secondBlock .aboutCompany .list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.secondBlock .aboutCompany .listItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 20px;
+}
+.secondBlock .aboutCompany .listItem img {
+  order: 2;
+  margin: 0 10px;
+  width: 32px;
+  height: 32px;
+}
+.secondBlock .aboutCompany .text {
+  text-align: right;
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.secondBlock .aboutCompany .text .firstParagraph {
+  margin-bottom: 30px;
+}
+.secondBlock .aboutCompany .btn {
+  width: 179px;
+  height: 42px;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  background-color: #CE2C15;
+  color: #FAFAFA;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.thirdBlock {
+  margin-top: 10px;
+  height: 30vh;
+}
+.thirdBlock .sectionInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thirdBlock .title {
+  font-family: "almoni";
+  font-weight: 900;
+  font-size: 48px;
+  color: #0F2350;
+  margin-bottom: 20px;
+}
+.thirdBlock .subTitle {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 28px;
+  color: #0F2350;
+  margin-bottom: 20px;
+}
+.thirdBlock .companiesLogo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.thirdBlock .companiesLogo .companyLogo {
+  padding: 0 12px 14px 18px;
+  width: 165px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px 2px rgba(184, 183, 183, 0.678);
+}
+.thirdBlock .companiesLogo .companyLogo img {
+  width: 129px;
+  height: 76px;
+}
+.thirdBlock .companiesLogo .companyLogo hr {
+  width: 142px;
+  height: 1px;
+  border: 0;
+  background-color: #ECECEC;
+}
+.thirdBlock .companiesLogo .companyLogo .underline {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #0F2350;
+}
+.thirdBlock .companiesLogo .companyLogo .date {
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 12px;
+}
+.thirdBlock .companiesLogo .companyLogo .text {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.fourthBlock {
+  width: 100%;
+  height: 412px;
+  margin-top: 50px;
+}
+.fourthBlock .sectionInner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.fourthBlock .information {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 26%;
+  height: 100%;
+}
+.fourthBlock .information .title {
+  font-family: "almoni";
+  font-weight: 900;
+  font-size: 38px;
+  color: #0F2350;
+  margin-bottom: 34px;
+}
+.fourthBlock .information .subTitle {
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 20px;
+  text-align: end;
+  color: #0F2350;
+}
+.fourthBlock .contacts {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  width: 28%;
+}
+.fourthBlock .contacts .title {
+  font-family: "almoni";
+  font-weight: 900;
+  font-size: 38px;
+  color: #0F2350;
+  margin-bottom: 34px;
+}
+.fourthBlock .contacts .contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: end;
+  font-size: 160%;
+}
+.fourthBlock .contacts .contact > img {
+  margin-left: 20px;
+}
+.fourthBlock .contacts .contact .firstLine {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 22px;
+}
+.fourthBlock .contacts .contact .secondLine {
+  color: #070F22;
+  font-style: normal;
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 18px;
+}
+.fourthBlock .contacts .contact a {
+  color: #070F22;
+}
+.fourthBlock .form {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  width: 36%;
+}
+.fourthBlock .form .title {
+  font-family: "almoni";
+  font-weight: 900;
+  font-size: 38px;
+  color: #0F2350;
+  margin-bottom: 34px;
+  width: 100%;
+  text-align: end;
+}
+.fourthBlock .form .firstLine {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+.fourthBlock .form .firstLine div {
+  text-align: end;
+  width: 100%;
+}
+.fourthBlock .form .firstLine div label {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 16px;
+}
+.fourthBlock .form .firstLine div input {
+  margin: 5px 0;
+  line-height: 1;
+}
+.fourthBlock .form .firstLine div input,
+.fourthBlock .form .commentsArea {
+  width: 100%;
+  padding: 10px;
+  font-size: 160%;
+  text-align: right;
+}
+.fourthBlock .form .firstLine div,
+.fourthBlock .form .commentsArea {
+  line-height: 1;
+  resize: none;
+}
+.fourthBlock .form .btn {
+  width: 418px;
+  margin: 16px 0;
+  height: 48px;
+  border: none;
+  background-color: #CE2C15;
+  color: #FAFAFA;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.fourthBlock .form .btn .btnText {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 171px;
+}
+.fourthBlock .form .btn img {
+  margin-right: 114px;
+}
+.fourthBlock .form .FIOConteiner {
+  order: 2;
+  margin-left: 10px;
+}
+.fourthBlock .form .PHONEConteiner {
+  order: 1;
+  margin-right: 10px;
+}
+.fourthBlock .form .commentLabel {
+  margin-bottom: 7px;
+  margin-top: 10px;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.fifthBlock {
+  background-color: #0F2350;
+  width: 100%;
+  height: 589px;
+}
+.fifthBlock .sectionInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.fifthBlock .title {
+  font-family: "almoni";
+  font-weight: 900;
+  font-size: 48px;
+  color: #FAFAFA;
+}
+.fifthBlock .news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.fifthBlock .news .smallNews {
+  width: 100%;
+  height: 426px;
+}
+.fifthBlock .news .smallNews .smallNewsList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+.fifthBlock .news .smallNews .smallNewsList .newsItem {
+  background-color: #fafafa;
+  width: 375px;
+  height: 182px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.fifthBlock .news .smallNews .smallNewsList .newsItem:nth-child(4n+1), .fifthBlock .news .smallNews .smallNewsList .newsItem:nth-child(4n+2) {
+  margin-bottom: 20px;
+}
+.fifthBlock .news .smallNews .smallNewsList .newsItem .text {
+  order: 1;
+  text-align: end;
+  margin-right: 20px;
+}
+.fifthBlock .news .smallNews .smallNewsList .newsItem .text .title {
+  color: #0F2350;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 24px;
+}
+.fifthBlock .news .smallNews .smallNewsList .newsItem .text .subTitle {
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 18px;
+  color: #0F2350;
+}
+.fifthBlock .news .smallNews .smallNewsList .newsItem img {
+  object-fit: cover;
+  order: 2;
+  width: 147px;
+  height: 162px;
+}
+.fifthBlock .news .smallNews .more {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 160%;
+  color: #fafafa;
+  margin: 12px 20px 12px 0;
+}
+.fifthBlock .news .smallNews hr {
+  height: 1px;
+  border: 0;
+  background-color: #ECECEC;
+  margin: 0 20px 0 0;
+}
+.fifthBlock .news .bigNews {
+  height: 426px;
+  width: 376px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: #fafafa;
+  text-align: end;
+}
+.fifthBlock .news .bigNews .bigNewsImg {
+  width: 376px;
+  height: 200px;
+  object-fit: cover;
+}
+.fifthBlock .news .bigNews .text {
+  padding: 0 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+.fifthBlock .news .bigNews .text .title {
+  color: #0F2350;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.fifthBlock .news .bigNews .text .subTitle {
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 20px;
+  color: #0F2350;
+  text-align: end;
+  margin-top: 10px;
+}
+.fifthBlock .news .bigNews .text .date {
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 14px;
+  color: #CFCFCF;
+}
+.fifthBlock .news .bigNews hr {
+  width: 80%;
+  color: #ECECEC;
+  align-self: center;
+}
+.fifthBlock .news .bigNews .more {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #CE2C15;
+  margin-bottom: 10px;
+  font-size: 160%;
+}
+
+.footer {
+  background-color: #070F22;
+  width: 100%;
+  height: 589px;
+  color: #CFCFCF;
+}
+.footer .sectionInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.footer .mainFooter {
+  margin-top: 27px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .mainFooter .footerList {
+  list-style: none;
+  text-align: end;
+}
+.footer .mainFooter .footerList .footerListItem {
+  margin-top: 7px;
+}
+.footer .mainFooter .footerList .footerListItem a {
+  text-decoration: none;
+  color: #CFCFCF;
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 20px;
+}
+.footer .mainFooter .title {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 24px;
+}
+.footer .mainFooter hr {
+  width: 100%;
+  border: none;
+  /* Убираем границу для браузера Firefox */
+  color: #cfcfcf88;
+  /* Цвет линии для остальных браузеров */
+  background-color: #cfcfcf88;
+  /* Цвет линии для браузера Firefox и Opera */
+  height: 2px;
+  /* Толщина линии */
+  margin: 10px 0;
+}
+.footer .mainFooter .contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  width: 25%;
+  color: #ECECEC;
+}
+.footer .mainFooter .contacts .title {
+  font-weight: 900;
+  font-size: 480%;
+  color: #0F2350;
+  margin-bottom: 20px;
+}
+.footer .mainFooter .contacts .contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 18px;
+  text-align: end;
+}
+.footer .mainFooter .contacts .contact > img {
+  margin-left: 20px;
+}
+.footer .mainFooter .contacts .contact .text .title {
+  font-weight: 900;
+  font-size: 400%;
+  color: #ececec;
+}
+.footer .mainFooter .contacts .contact .firstLine {
+  font-size: 220%;
+  margin-bottom: 5px;
+}
+.footer .mainFooter .contacts .contact .secondLine {
+  font-size: 160%;
+}
+.footer .mainFooter .contacts .contact .secondLine,
+.footer .mainFooter .contacts .contact a {
+  color: #ffffff7e;
+  font-style: normal;
+}
+.footer .mainFooter .time {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 22%;
+}
+.footer .mainFooter .time .timeText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.footer .mainFooter .time .timeText .text .firstLine {
+  text-align: right;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 22px;
+}
+.footer .mainFooter .time .timeText .text .secondLine {
+  text-align: right;
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 18px;
+}
+.footer .mainFooter .time .timeText img {
+  margin-left: 10px;
+}
+.footer .mainFooter .category {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 20%;
+}
+.footer .mainFooter .footerMenu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 20%;
+}
+.footer hr {
+  width: 100%;
+  border: none;
+  /* Убираем границу для браузера Firefox */
+  color: #99999914;
+  /* Цвет линии для остальных браузеров */
+  background-color: #99999914;
+  /* Цвет линии для браузера Firefox и Opera */
+  height: 1px;
+  /* Толщина линии */
+  margin: 10px 0;
+}
+.footer .lastLineFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 24px;
+}
+.footer .lastLineFooter .design {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .lastLineFooter .design .text {
+  border: none;
+  border-left: 1px solid #CFCFCF;
+  color: #CFCFCF;
+  font-weight: 300;
+  font-size: 150%;
+  line-height: 2;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.footer .lastLineFooter .messangers img {
+  margin-right: 20px;
+}
+.footer .lastLineFooter .copyright {
+  font-weight: 300;
+  font-size: 150%;
+}

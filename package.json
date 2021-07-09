@@ -1,0 +1,26 @@
+{
+  "name": "hebrewsite",
+  "version": "1.0.0",
+  "description": "test task for Hebrew customer",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sopel1996/HebrewSite.git"
+  },
+  "author": "Sopel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sopel1996/HebrewSite/issues"
+  },
+  "homepage": "https://github.com/sopel1996/HebrewSite#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.4",
+    "dropcss": "^1.0.16",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.35.1"
+  }
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+._gray {
+  color: #888888;
+}
+
+._white {
+  color: #fff;
+}
+
+.btn {
+  cursor: pointer;
+  font-size: 160%;
+}
+
+body {
+  font-size: 10px;
+  font-family: "almoni";
+  font-weight: 500;
+}
+
+.sectionInner {
+  max-width: 1167px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}

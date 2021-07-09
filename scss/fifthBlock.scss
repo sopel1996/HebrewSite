@@ -1,0 +1,146 @@
+@import 'mixins.scss';
+.fifthBlock{
+    background-color: #0F2350;
+    width: 100%;
+    height: 589px;
+    .sectionInner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .title{
+        @include almoniBlack;
+        font-size: 48px;
+        color: #FAFAFA;
+    }
+    .news{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .smallNews{
+            width: 100%;
+            height: 426px;
+            
+            .smallNewsList{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                margin-right: 20px;
+                
+                .newsItem{
+                    background-color: #fafafa;
+                    width: 375px;
+                    height: 182px;
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+
+                    &:nth-child(4n+1),
+                    &:nth-child(4n+2){
+                        margin-bottom: 20px;
+                    }
+
+                    .text {
+                        order: 1;
+                        text-align: end;
+                        margin-right: 20px;
+                        .title {
+                            color: #0F2350;
+                            @include almoniBold;
+                            font-size: 24px;
+                        }
+                        .subTitle {
+                            @include almoniRegular;
+                            font-size: 18px;
+                            color: #0F2350;
+                        }
+                    }
+                    img {
+                        object-fit:cover;
+                        order: 2;
+                        width: 147px;
+                        height: 162px;
+                    }
+                }
+            }
+            .more{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                font-size: 160%;
+                color: #fafafa;
+                margin: 12px 20px 12px 0;
+            }
+            hr{
+                height: 1px;
+                border: 0;
+                background-color: #ECECEC;
+                margin: 0 20px 0 0;
+            }
+        }
+        .bigNews{
+            height: 426px;
+            width: 376px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            background-color: #fafafa;
+            text-align: end;
+            .bigNewsImg{
+                width: 376px;
+                height: 200px;
+                object-fit: cover;
+            }
+            .text{
+                padding: 0 20px 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: center;
+                width: 100%;
+                .title{
+                    color: #0F2350;
+                    @include almoniBold;
+                    font-size: 32px;
+                    margin-bottom: 10px;
+                }
+                .subTitle {
+                    @include almoniRegular;
+                    font-size: 20px;
+                    color: #0F2350;
+                    text-align: end;
+                    margin-top: 10px;
+                }
+                .date{
+                    @include almoniRegular;
+                    font-size: 14px;
+                    color: #CFCFCF;
+                }
+            }
+            
+            hr{
+                width: 80%;
+                color: #ECECEC;
+                align-self: center;
+            }
+            .more{
+                width: 100%;
+                padding: 0 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                color: #CE2C15;
+                margin-bottom: 10px;
+                font-size: 160%;
+            }
+        }
+    }
+}

@@ -1,0 +1,172 @@
+@import 'mixins.scss';
+.header {
+    width: 100%;
+    height: 13vh;
+    @include almoniRegular;
+    line-height: 105%;
+
+    
+    &_firstLine {
+        
+        height: 40px;
+        width: 100%;
+        @include almoniRegular;
+        font-size: 14px;
+        color: #FAFAFA;
+        
+        & .sectionInner {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        &-social {
+            order: 1;
+            
+            & img {
+                margin: 0 16px 0 0;
+            }
+        }
+               
+        &-contacts {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            order: 2;
+            
+            &-item{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                & address {
+                    display: inline;
+                    font-style: normal;
+                }
+                
+                & img {
+                    margin-right: 29px;
+                    margin-left: 10px;
+                    float: right;
+                }
+                &:last-child{
+                    img {
+                        margin-right: 0;
+                    }
+                } 
+
+            }
+
+            & a {
+                color: #FAFAFA;
+                text-decoration: none;
+            }
+        }
+        
+    }
+    &_secondLine {
+        height: 80px;
+        font-size: 20px;
+        width: 100%;
+
+        
+        & .sectionInner {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        &-contacts-phone {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            height: 40px;
+        
+        
+            & .text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: space-between;
+                height: 100%;
+                margin-right: 15px;
+                width: 115px;
+                
+                & a {
+                    text-decoration: none;
+                    color: #070F22;
+                    @include almoniBold;
+                    font-size: 24px;
+                    line-height: 120%;
+                }
+                
+                & .title {
+                    color: #0F2350;
+                    font-size: 16px;
+                }
+            }
+            & img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+        &-nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            list-style: none;
+            width: 653px;
+            color: #070F22;
+            
+            & a {
+                color: #070F22;
+            &:hover{
+                @include almoniBold;
+            }
+            }
+
+        }
+        
+        &-logo {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            color: #0F2350;
+            height: 55px;
+            
+            & .text {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: space-around;
+                margin-right: 15px;
+                height: 100%;
+            }
+            
+            & .title {
+                @include almoniBold;
+                font-size: 40px;
+                color: #0F2350;
+                // line-height: 105%
+            }
+            
+            & .subTitle {
+                @include almoniRegular;
+                font-size: 17px;
+                color: #888888;
+                // line-height: 105%
+            }
+            & img{
+                widows: 55px;
+                height: 55px;
+            }
+        }
+        
+    }
+}

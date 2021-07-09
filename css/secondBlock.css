@@ -1,0 +1,98 @@
+.secondBlock {
+  width: 100%;
+  height: 743px;
+  background: #fff url("/img/png/bgPrev.png") 50% 346px no-repeat;
+  background-size: contain;
+  position: relative;
+  color: #070F22;
+}
+.secondBlock::before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(236, 236, 236, 0.76);
+}
+.secondBlock .sectionInner {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: 10;
+}
+.secondBlock .men {
+  width: 465px;
+  height: 582px;
+}
+.secondBlock .aboutCompany {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.secondBlock .aboutCompany .title {
+  font-family: "almoni";
+  font-weight: 900;
+  font-size: 48px;
+  color: #0F2350;
+  margin-bottom: 6px;
+}
+.secondBlock .aboutCompany .subTitle {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 28px;
+  color: #0F2350;
+  margin-bottom: 20px;
+}
+.secondBlock .aboutCompany .list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+.secondBlock .aboutCompany .listItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 20px;
+}
+.secondBlock .aboutCompany .listItem img {
+  order: 2;
+  margin: 0 10px;
+  width: 32px;
+  height: 32px;
+}
+.secondBlock .aboutCompany .text {
+  text-align: right;
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.secondBlock .aboutCompany .text .firstParagraph {
+  margin-bottom: 30px;
+}
+.secondBlock .aboutCompany .btn {
+  width: 179px;
+  height: 42px;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  background-color: #CE2C15;
+  color: #FAFAFA;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

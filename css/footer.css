@@ -1,0 +1,184 @@
+@charset "UTF-8";
+.footer {
+  background-color: #070F22;
+  width: 100%;
+  height: 589px;
+  color: #CFCFCF;
+}
+.footer .sectionInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.footer .mainFooter {
+  margin-top: 27px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .mainFooter .footerList {
+  list-style: none;
+  text-align: end;
+}
+.footer .mainFooter .footerList .footerListItem {
+  margin-top: 7px;
+}
+.footer .mainFooter .footerList .footerListItem a {
+  text-decoration: none;
+  color: #CFCFCF;
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 20px;
+}
+.footer .mainFooter .title {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 24px;
+}
+.footer .mainFooter hr {
+  width: 100%;
+  border: none;
+  /* Убираем границу для браузера Firefox */
+  color: #cfcfcf88;
+  /* Цвет линии для остальных браузеров */
+  background-color: #cfcfcf88;
+  /* Цвет линии для браузера Firefox и Opera */
+  height: 2px;
+  /* Толщина линии */
+  margin: 10px 0;
+}
+.footer .mainFooter .contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 100%;
+  width: 25%;
+  color: #ECECEC;
+}
+.footer .mainFooter .contacts .title {
+  font-weight: 900;
+  font-size: 480%;
+  color: #0F2350;
+  margin-bottom: 20px;
+}
+.footer .mainFooter .contacts .contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  margin-bottom: 18px;
+  text-align: end;
+}
+.footer .mainFooter .contacts .contact > img {
+  margin-left: 20px;
+}
+.footer .mainFooter .contacts .contact .text .title {
+  font-weight: 900;
+  font-size: 400%;
+  color: #ececec;
+}
+.footer .mainFooter .contacts .contact .firstLine {
+  font-size: 220%;
+  margin-bottom: 5px;
+}
+.footer .mainFooter .contacts .contact .secondLine {
+  font-size: 160%;
+}
+.footer .mainFooter .contacts .contact .secondLine,
+.footer .mainFooter .contacts .contact a {
+  color: #ffffff7e;
+  font-style: normal;
+}
+.footer .mainFooter .time {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 22%;
+}
+.footer .mainFooter .time .timeText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.footer .mainFooter .time .timeText .text .firstLine {
+  text-align: right;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 22px;
+}
+.footer .mainFooter .time .timeText .text .secondLine {
+  text-align: right;
+  font-family: "almoni";
+  font-weight: 500;
+  font-size: 18px;
+}
+.footer .mainFooter .time .timeText img {
+  margin-left: 10px;
+}
+.footer .mainFooter .category {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 20%;
+}
+.footer .mainFooter .footerMenu {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 20%;
+}
+.footer hr {
+  width: 100%;
+  border: none;
+  /* Убираем границу для браузера Firefox */
+  color: #99999914;
+  /* Цвет линии для остальных браузеров */
+  background-color: #99999914;
+  /* Цвет линии для браузера Firefox и Opera */
+  height: 1px;
+  /* Толщина линии */
+  margin: 10px 0;
+}
+.footer .lastLineFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 24px;
+}
+.footer .lastLineFooter .design {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .lastLineFooter .design .text {
+  border: none;
+  border-left: 1px solid #CFCFCF;
+  color: #CFCFCF;
+  font-weight: 300;
+  font-size: 150%;
+  line-height: 2;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.footer .lastLineFooter .messangers img {
+  margin-right: 20px;
+}
+.footer .lastLineFooter .copyright {
+  font-weight: 300;
+  font-size: 150%;
+}

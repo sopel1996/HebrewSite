@@ -1,0 +1,56 @@
+.logo {
+  width: 100%;
+  height: 590px;
+  background: #0F2350 url("/img/png/banner.png") 50% 50% no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #FAFAFA;
+}
+.logo::before {
+  content: "";
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #0f23504D;
+}
+.logo .sectionInner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.logo .title {
+  font-family: "almoni";
+  font-weight: 900;
+  font-size: 64px;
+  margin-bottom: 19px;
+}
+.logo .subtitle {
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 28px;
+}
+.logo .btn {
+  color: #FAFAFA;
+  width: 278px;
+  height: 60px;
+  border: none;
+  background-color: #0F2350;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 115px;
+  font-family: "almoni";
+  font-weight: 700;
+  font-size: 20px;
+}
+.logo .btn bdo {
+  margin-right: 60px;
+}

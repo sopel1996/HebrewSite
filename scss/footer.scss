@@ -1,0 +1,182 @@
+@import 'mixins.scss';
+.footer{
+    background-color: #070F22;
+    width: 100%;
+    height: 589px;
+    color: #CFCFCF;
+    .sectionInner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .mainFooter{
+        margin-top: 27px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .footerList{
+            list-style: none;
+            text-align: end;  
+            .footerListItem{
+                margin-top: 7px;
+                a{
+                    text-decoration: none;
+                    color: #CFCFCF;
+                    @include almoniRegular;
+                    font-size: 20px;
+                }
+                // &:first-child{
+                //     margin-top: 0;
+                // }
+            }
+        }
+        .title{
+            @include almoniBold;
+            font-size: 24px;
+            
+        }
+        hr{ 
+            width: 100%;
+            border: none; /* Убираем границу для браузера Firefox */
+            color: #cfcfcf88; /* Цвет линии для остальных браузеров */
+            background-color: #cfcfcf88; /* Цвет линии для браузера Firefox и Opera */
+            height: 2px; /* Толщина линии */
+            margin: 10px 0;
+        }
+        .contacts{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            height: 100%;
+            width: 25%;
+            color: #ECECEC;
+            .title{
+                font-weight: 900;
+                font-size: 480%;
+                color: #0F2350;
+                margin-bottom: 20px;
+            }
+            
+            .contact{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-end;
+                width: 100%;
+                margin-bottom: 18px;
+                text-align: end;
+                &>img{
+                    margin-left: 20px;
+                }
+                .text .title{
+                    font-weight: 900;
+                    font-size: 400%;
+                    color: #ececec;
+                }
+                .firstLine{
+                    font-size: 220%;
+                    margin-bottom: 5px;
+                }
+                .secondLine{
+                    font-size: 160%;
+                }
+                .secondLine,
+                a{
+                    color: #ffffff7e;
+                    font-style: normal;
+                }
+            }
+            
+        }
+        .time{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-start;
+            width: 22%;
+            .timeText{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 5px;
+                .text{
+                    .firstLine{
+                        text-align: right;
+                        @include almoniBold;
+                        font-size: 22px;
+                    }
+                    .secondLine{
+                        text-align: right;
+                        @include almoniRegular;
+                        font-size: 18px;
+                    }
+                }
+                img{
+                    margin-left: 10px;
+                } 
+            }
+        }
+        .category{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-start;
+            width: 20%;
+        }
+        .footerMenu{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-start;
+            width: 20%;
+        }
+    
+    }
+    hr{
+        width: 100%;
+        border: none; /* Убираем границу для браузера Firefox */
+        color: #99999914; /* Цвет линии для остальных браузеров */
+        background-color: #99999914; /* Цвет линии для браузера Firefox и Opera */
+        height: 1px; /* Толщина линии */
+        margin: 10px 0;
+    }
+
+    .lastLineFooter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 24px;
+        .design {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            .text{
+                border: none;
+                border-left: 1px solid #CFCFCF;
+                color: #CFCFCF;
+                font-weight: 300;
+                font-size: 150%;
+                line-height: 2;
+                margin-left: 10px;
+                padding-left: 10px;
+            }
+        }
+        .messangers img{
+            margin-right: 20px;
+        }
+        .copyright{
+            font-weight: 300;
+            font-size: 150%;
+        }
+    }
+}
