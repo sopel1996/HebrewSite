@@ -1,79 +1,114 @@
-@media (min-width: 768px) {
-    body {
+@import 'mixins.scss';
+@media (max-width: (1200-1)+px) {
+    html{
+        font-size: 14px;
+    }
+    .sectionInner {
+        padding: 0 toRem(20); 
+    }
+    .firstBlock {
+        &_card {
+            width: toRem(250);
+        }
+    }
+    .fifthBlock{
+        .news{
+            .smallNews{
+                .smallNewsList{
+                    .newsItem{
+                        background-color: #fafafa;
+                        width: toRem(340);
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        hr{
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .lastLineFooter{
+            margin-top: toRem(0);
+        }
+    }
+}
+@media (max-width: (992-1)+px) {
+    html{
+        font-size: 11px;
+    }
+    .sectionInner {
+        padding: 0 toRem(20); 
+    }
+
+    .fourthBlock {
+
+        .contacts{ 
+            .contact{ 
+                &> img{
+                    width: toRem(48);
+                }
+            }
+        }
+    }
+    .fifthBlock{
+        .news{
+            .smallNews{
+                .smallNewsList{
+                    .newsItem{
+                        background-color: #fafafa;
+                        width: toRem(333);
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        hr{
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .lastLineFooter{
+            margin-top: toRem(0);
+        }
+    }
+}
+@media (max-width: (768-1)+px) {
+    html{
         font-size: 8px;
     }
-    .fistBlock .sectionInner .firsBlock_card {
-        width: 22%;
-    }
-    .secondBlock .sectionInner .men {
-        width: 50%;
-    }
-    .thirdBlock .sectionInner .companiesLogo .companyLogo {
-        width: 20%;
-    }
-    .fourthBlock .sectionInner .form .btn {
-        height: 40px;
-    }
-    .fifthBlock .sectionInner .news .smallNews .smallNewsList .newsItem {
-        max-width: 45%;
-    }
-    .fifthBlock .sectionInner .news .smallNews .newsItem img {
-        width: 40%;
-    }
-    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
-        width: 28vw;
-    }
-}
-
-@media (min-width: 992px) {
-    body {
-        font-size: 10px;
-    }
-    .secondBlock .sectionInner .men {
-        width: 40%;
-    }
-    .fifthBlock .sectionInner .news .smallNews .newsItem img {
-        width: 30%;
-    }
-    .fourthBlock .sectionInner .form .btn {
-        height: 100px;
-    }
-}
-
-@media (min-width: 1200px) {
     .sectionInner {
-        margin: 0;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 0 toRem(20); 
     }
-    .thirdBlock .sectionInner .companiesLogo .companyLogo {
-        width: 15%;
-    }
-    .fifthBlock .sectionInner .news .smallNews .newsItem img {
-        width: 50%;
-    }
-    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
-        width: 28vw;
-    }
-    .secondBlock .sectionInner .men {
-        width: 35%;
-    }
-}
+    .fourthBlock {
 
-@media (min-width: 1400px) {
-    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
-        width: 25vw;
+        .contacts{ 
+            .contact{ 
+                &> img{
+                    width: toRem(48);
+                }
+            }
+        }
     }
-    .secondBlock .sectionInner .men {
-        width: 35%;
+    .fifthBlock{
+        .news{
+            .smallNews{
+                .smallNewsList{
+                    .newsItem{
+                        background-color: #fafafa;
+                        width: toRem(333);
+                    }
+                }
+            }
+        }
     }
-}
-
-@media (min-width: 1920px) {
-    .fifthBlock .sectionInner .news .bigNews .bigNewsImg {
-        width: 18vw;
-    }
-    .secondBlock .sectionInner .men {
-        width: 60%;
+    .footer{
+        hr{
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .lastLineFooter{
+            margin-top: toRem(0);
+        }
     }
 }

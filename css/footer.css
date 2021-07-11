@@ -1,8 +1,7 @@
-@charset "UTF-8";
 .footer {
   background-color: #070F22;
   width: 100%;
-  height: 31.25rem;
+  height: 29.6875rem;
   color: #CFCFCF;
 }
 .footer .sectionInner {
@@ -41,13 +40,9 @@
 .footer .mainFooter hr {
   width: 100%;
   border: none;
-  /* Убираем границу для браузера Firefox */
   color: #cfcfcf88;
-  /* Цвет линии для остальных браузеров */
   background-color: #cfcfcf88;
-  /* Цвет линии для браузера Firefox и Opera */
   height: 2px;
-  /* Толщина линии */
   margin: 10px 0;
 }
 .footer .mainFooter .contacts {
@@ -75,6 +70,7 @@
 }
 .footer .mainFooter .contacts .contact > img {
   margin-left: 1.25rem;
+  width: 3rem;
 }
 .footer .mainFooter .contacts .contact .text .title {
   font-weight: 900;
@@ -142,13 +138,9 @@
 .footer hr {
   width: 100%;
   border: none;
-  /* Убираем границу для браузера Firefox */
   color: #99999914;
-  /* Цвет линии для остальных браузеров */
   background-color: #99999914;
-  /* Цвет линии для браузера Firefox и Opera */
   height: 1px;
-  /* Толщина линии */
   margin: 10px 0;
 }
 .footer .lastLineFooter {
@@ -176,8 +168,14 @@
   margin-left: 0.625rem;
   padding-left: 0.625rem;
 }
+.footer .lastLineFooter .design .realMediaImg {
+  width: 5.5625rem;
+  height: 1.25rem;
+}
 .footer .lastLineFooter .messangers img {
   margin-right: 1.25rem;
+  width: 1.5625rem;
+  height: 1.5625rem;
 }
 .footer .lastLineFooter .copyright {
   font-family: "almoni";

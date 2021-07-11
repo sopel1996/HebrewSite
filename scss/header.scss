@@ -99,7 +99,6 @@
                     text-decoration: none;
                     color: #070F22;
                     @include almoniBold(24);
-                    // font-size: 24px;
                     line-height: 120%;
                 }
                 
@@ -109,8 +108,8 @@
                 }
             }
             & img{
-                width: toRem(40);
-                height: toRem(40);
+                width: toRem(39);
+                height: toRem(39);
             }
         }
         &-nav {
@@ -150,16 +149,12 @@
             
             & .title {
                 @include almoniBold(40);
-                // font-size: 40px;
                 color: #0F2350;
-                // line-height: 105%
             }
             
             & .subTitle {
                 @include almoniRegular(17);
-                // font-size: 17px;
                 color: #888888;
-                // line-height: 105%
             }
             & img{
                 widows: toRem(55);

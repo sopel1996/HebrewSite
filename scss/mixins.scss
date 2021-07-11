@@ -7,23 +7,19 @@
     font-family: "almoni";
     font-weight: 300;
     font-size: toRem($size_px);
-    // font-size: $size_px + px;
 }
 @mixin almoniRegular($size_px) {
     font-family: "almoni";
     font-weight: 500;
     font-size: toRem($size_px);
-    // font-size: $size_px + px;
 }
 @mixin almoniBold($size_px) {
     font-family: "almoni";
     font-weight: 700;
     font-size: toRem($size_px);
-    // font-size: $size_px + px;
 }
 @mixin almoniBlack($size_px) {
     font-family: "almoni";
     font-weight: 900;
     font-size: toRem($size_px);
-    // font-size: $size_px + px;
 }

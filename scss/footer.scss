@@ -2,7 +2,7 @@
 .footer{
     background-color: #070F22;
     width: 100%;
-    height: toRem(500);
+    height: toRem(475);
     color: #CFCFCF;
     .sectionInner{
         display: flex;
@@ -26,24 +26,20 @@
                     text-decoration: none;
                     color: #CFCFCF;
                     @include almoniRegular(20);
-                    // font-size: 20px;
                 }
-                // &:first-child{
-                //     margin-top: 0;
-                // }
+                
             }
         }
         .title{
             @include almoniBold(24);
-            // font-size: 24px;
             
         }
         hr{ 
             width: 100%;
-            border: none; /* Убираем границу для браузера Firefox */
-            color: #cfcfcf88; /* Цвет линии для остальных браузеров */
-            background-color: #cfcfcf88; /* Цвет линии для браузера Firefox и Opera */
-            height: 2px; /* Толщина линии */
+            border: none; 
+            color: #cfcfcf88; 
+            background-color: #cfcfcf88; 
+            height: 2px; 
             margin: 10px 0;
         }
         .contacts{
@@ -70,6 +66,7 @@
                 text-align: end;
                 &>img{
                     margin-left: toRem(20);
+                    width: toRem(48);
                 }
                 .text .title{
                     font-weight: 900;
@@ -108,12 +105,10 @@
                     .firstLine{
                         text-align: right;
                         @include almoniBold(22);
-                        // font-size: 22px;
                     }
                     .secondLine{
                         text-align: right;
                         @include almoniRegular(18);
-                        // font-size: 18px;
                     }
                 }
                 img{
@@ -141,10 +136,10 @@
     }
     hr{
         width: 100%;
-        border: none; /* Убираем границу для браузера Firefox */
-        color: #99999914; /* Цвет линии для остальных браузеров */
-        background-color: #99999914; /* Цвет линии для браузера Firefox и Opera */
-        height: 1px; /* Толщина линии */
+        border: none; 
+        color: #99999914;
+        background-color: #99999914; 
+        height: 1px; 
         margin: 10px 0;
     }
 
@@ -169,9 +164,15 @@
                 margin-left: toRem(10);
                 padding-left: toRem(10);
             }
+            .realMediaImg{
+                width: toRem(89);
+                height: toRem(20);
+            }
         }
         .messangers img{
             margin-right: toRem(20);
+            width: toRem(25);
+            height: toRem(25);
         }
         .copyright{
             @include almoniLight(15)

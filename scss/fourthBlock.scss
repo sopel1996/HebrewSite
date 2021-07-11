@@ -20,13 +20,11 @@
         
         .title{
             @include almoniBlack(38);
-            // font-size: 38px;
             color: #0F2350;
             margin-bottom: toRem(34);
         }
         .subTitle{
             @include almoniRegular(20);
-            // font-size: 20px;
             text-align: end;
             color: #0F2350;
         }
@@ -41,7 +39,6 @@
         width: 28%;
         .title{
             @include almoniBlack(38);
-            // font-size: 38px;
             color: #0F2350;
             margin-bottom: toRem(34);
         }
@@ -56,16 +53,16 @@
             font-size: toRem(16);
             &>img{
                 margin-left: toRem(20);
+                width: toRem(48);
+                height: toRem(48);
             }
             .firstLine{
                 @include almoniBold(22);
-                // font-size: 22px;                
             }
             .secondLine{
                 color: #070F22;
                 font-style: normal;
                 @include almoniRegular(18);
-                // font-size: 18px;
             }
              a{
                 color: #070F22;
@@ -81,7 +78,6 @@
         width: 36%;
         .title{
             @include almoniBlack(38);
-            // font-size: 38px;
             color: #0F2350;
             margin-bottom: toRem(34);
             width: 100%;
@@ -99,10 +95,8 @@
                 width: 100%;
                 label{
                     @include almoniBold(16);
-                    // font-size: 16px;
                 }
                 input{
-                    margin: toRem(5) 0;
                     line-height: 1;
                 }
             }
@@ -113,6 +107,8 @@
             padding: toRem(10);
             font-size: toRem(16);
             text-align: right;
+            margin: toRem(5) 0;
+            border: 1px solid #CFCFCF;
         }
     
         .firstLine div, 
@@ -121,7 +117,7 @@
             resize: none;
         }
         .btn{
-            width: toRem(418);
+            width: 100%;
             margin: toRem(16) 0;
             height: toRem(48);
             border: none;
@@ -133,7 +129,6 @@
             align-items: center;
             .btnText{
                 @include almoniBold(20);
-                // font-size: 20px;   
                 margin-right: toRem(171);
             }
             img{
@@ -152,14 +147,6 @@
             margin-bottom: toRem(7);
             margin-top: toRem(10);
             @include almoniBold(16);
-            // font-size: 16px;    
         }
     }
 }
-
-// .fourthBlock .sectionInner .form .firstLine div input::placeholder,
-// .fourthBlock .sectionInner .form .commentsArea::placeholder,
-// .fourthBlock .sectionInner .form .firstLine div input:placeholder-shown,
-// .fourthBlock .sectionInner .form .commentsArea:placeholder-shown{
-//     direction: rtl;
-// }

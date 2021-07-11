@@ -11,7 +11,6 @@
     }
     .title{
         @include almoniBlack(48);
-        // font-size: 48px;
         color: #FAFAFA;
     }
     .news{
@@ -53,11 +52,9 @@
                         .title {
                             color: #0F2350;
                             @include almoniBold(24);
-                            // font-size: 24px;
                         }
                         .subTitle {
                             @include almoniRegular(18);
-                            // font-size: 18px;
                             color: #0F2350;
                         }
                     }
@@ -108,19 +105,16 @@
                 .title{
                     color: #0F2350;
                     @include almoniBold(32);
-                    // font-size: 32px;
                     margin-bottom: toRem(10);
                 }
                 .subTitle {
                     @include almoniRegular(20);
-                    // font-size: 20px;
                     color: #0F2350;
                     text-align: end;
                     margin-top: toRem(10);
                 }
                 .date{
                     @include almoniRegular(14);
-                    // font-size: 14px;
                     color: #CFCFCF;
                 }
             }

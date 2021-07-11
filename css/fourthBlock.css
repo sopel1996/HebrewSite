@@ -58,6 +58,8 @@
 }
 .fourthBlock .contacts .contact > img {
   margin-left: 1.25rem;
+  width: 3rem;
+  height: 3rem;
 }
 .fourthBlock .contacts .contact .firstLine {
   font-family: "almoni";
@@ -109,7 +111,6 @@
   font-size: 1rem;
 }
 .fourthBlock .form .firstLine div input {
-  margin: 0.3125rem 0;
   line-height: 1;
 }
 .fourthBlock .form .firstLine div input,
@@ -118,6 +119,8 @@
   padding: 0.625rem;
   font-size: 1rem;
   text-align: right;
+  margin: 0.3125rem 0;
+  border: 1px solid #CFCFCF;
 }
 .fourthBlock .form .firstLine div,
 .fourthBlock .form .commentsArea {
@@ -125,7 +128,7 @@
   resize: none;
 }
 .fourthBlock .form .btn {
-  width: 26.125rem;
+  width: 100%;
   margin: 1rem 0;
   height: 3rem;
   border: none;
